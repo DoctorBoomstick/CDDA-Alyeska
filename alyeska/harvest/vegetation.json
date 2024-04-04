@@ -1,0 +1,29 @@
+[
+  {
+    "id": "generic_flower_winter_harv",
+    "type": "harvest",
+    "entries": [ { "drop": "plant_stalk", "base_num": [ 0, 1 ] }, { "drop": "withered", "base_num": [ 1, 3 ] } ]
+  },
+  {
+    "id": "bog_orchid_normal_harv",
+    "type": "harvest",
+    "entries": [
+      { "drop": "plant_stalk", "base_num": [ 0, 1 ] },
+      { "drop": "flower_whiled", "base_num": [ 1, 4 ] },
+      { "drop": "young_leaves", "base_num": [ 2, 4 ] },
+      { "drop": "withered", "base_num": [ 1, 2 ] },
+      { "drop": "seed_flower", "base_num": [ 1, 2 ] }
+    ]
+  },
+  {
+    "id": "violet_harv",
+    "type": "harvest",
+    "entries": [
+      { "drop": "plant_stalk", "base_num": [ 0, 1 ] },
+      { "drop": "flower_whiled", "base_num": [ 1, 2 ] },
+      { "drop": "young_leaves", "base_num": [ 1, 2 ] },
+      { "drop": "withered", "base_num": [ 0, 1 ] },
+      { "drop": "seed_flower", "base_num": [ 1, 2 ] }
+    ]
+  }
+]

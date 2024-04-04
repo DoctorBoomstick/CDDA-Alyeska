@@ -1,0 +1,30 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_mud_flat",
+    "looks_like": "t_dirt",
+    "name": "tamped mud",
+    "description": "A monotonous expanse of compacted, semi-solidified mud, trampled into the vague semblance of a traversable pathway through the urgings of countless ambulatory motions: human, the local fauna, or otherwise.",
+    "symbol": ".",
+    "color": "brown",
+    "move_cost": 2,
+    "connect_groups": "MUD",
+    "connects_to": [ "DIRT", "MUD" ],
+    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT" ],
+    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 50, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+  },
+  {
+    "type": "terrain",
+    "id": "t_mud_saturated",
+    "looks_like": "t_dirt",
+    "name": "quagmire",
+    "description": "Rising to the ankle  and even boot-hight, this gelatinous sediment of foulness, rancid ooze, and stagnant water demands careful footing from the would-be hiker, passer, or runner.  You would dearly rather not think too deeply about the occasional lumps you spy wriggling through the morass.",
+    "symbol": ".",
+    "color": "brown",
+    "move_cost": 2,
+    "connect_groups": "MUD",
+    "connects_to": [ "DIRT", "MUD" ],
+    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT" ],
+    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 50, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+  }
+]

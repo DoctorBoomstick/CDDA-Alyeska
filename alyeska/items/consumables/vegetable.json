@@ -1,0 +1,22 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "flower_whiled",
+    "comestible_type": "FOOD",
+    "name": { "str": "handful of whiled flowers", "str_pl": "handfuls of whiled flowers" },
+    "description": "This is a large handful of dainty whiled flowers harvested from some manner of indigenous vegetation, said to have a slightly refreshing, if bland, flavour profile.  That being said, while edible in their raw state, they are far from the culinary preference of choice for pallets free from the persuasion of necessity.",
+    "weight": "10 g",
+    "volume": "20 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "calories": 46,
+    "vitamins": [ [ "vitC", 5 ], [ "calcium", "17600 μg" ], [ "iron", "300 μg" ] ],
+    "//": "Nutrition and vitamin numbers are based on the information in https://www.nutritionix.com/food/edible-flower",
+    "//2": "Vitamin C numbers are, as of yet, still provisional, though they are supposedly high.",
+    "spoils_in": "20 days",
+    "fun": -1,
+    "color": "green",
+    "symbol": ",",
+    "material": [ "veggy" ]
+  }
+]

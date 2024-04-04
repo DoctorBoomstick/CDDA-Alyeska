@@ -1,0 +1,16 @@
+[
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "LATITUDE",
+    "info": "Sets the latitude used for sunrise/sunset times.  Based off the coordinates for Unalaska island.",
+    "stype": "float",
+    "value": 53.88
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "LONGITUDE",
+    "info": "Sets the longitude used for sunrise/sunset times.  Based off the coordinates for Unalaska island.",
+    "stype": "float",
+    "value": -166.53
+  }
+]

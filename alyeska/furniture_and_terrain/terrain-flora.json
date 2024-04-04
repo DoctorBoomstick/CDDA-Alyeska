@@ -1,0 +1,210 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_tree_alder_green",
+    "looks_like": "t_tree_alder",
+    "name": "Green Alder tree",
+    "description": "A member of the hardy Alnus viridis tree species, it is a thicket-forming Alaskan pioneer of the Betulaceae family with grey bark and greenish yellow leaves.  Adapted for growth in barren, nutrient-exhausted areas, it is one of the few trees suited for life within the arctic isles, though high wind speeds make it, by necessity, more akin to a fairly tall shrub than an actual tree.",
+    "symbol": "7",
+    "color": [ "green", "green", "green", "brown" ],
+    "move_cost": 0,
+    "coverage": 80,
+    "roof": "t_treetop",
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "CLIMB_ADJACENT" ],
+    "examine_action": "harvest_ter",
+    "harvest_by_season": [ { "seasons": [ "spring", "autumn" ], "id": "alder_harv" } ],
+    "transforms_into": "t_tree_alder_green_harvested",
+    "bash": {
+      "str_min": 80,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "stick_long", "count": [ 3, 10 ] },
+        { "item": "splinter", "count": [ 10, 25 ] },
+        { "item": "leaves", "count": [ 50, 150 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_tree_alder_green_harvested",
+    "looks_like": "t_tree_alder",
+    "name": "Green Alder tree",
+    "description": "A member of the hardy Alnus viridis tree species, it is a thicket-forming Alaskan pioneer of the Betulaceae family with grey bark and greenish yellow leaves.  Adapted for growth in barren, nutrient-exhausted areas, it is one of the few trees suited for life within the arctic isles, though high wind speeds make it, by necessity, more akin to a fairly tall shrub than an actual tree.  This particular specimen has had swaths of its bark peeled away.",
+    "symbol": "7",
+    "color": [ "green", "green", "green", "brown" ],
+    "move_cost": 0,
+    "coverage": 80,
+    "roof": "t_treetop",
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "CLIMB_ADJACENT" ],
+    "transforms_into": "t_tree_alder_green",
+    "bash": {
+      "str_min": 80,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "stick_long", "count": [ 3, 10 ] },
+        { "item": "splinter", "count": [ 10, 25 ] },
+        { "item": "leaves", "count": [ 50, 150 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_tree_willow_arctic",
+    "looks_like": "t_tree_willow",
+    "name": "arctic willow tree",
+    "description": "This is a squat member of the Salix genus, ostensibly a form of willow tree adapted to grow in tundra and marine climates, though this specie’s brand of dwarfism lends it a greater kinship with deciduous shrubs.  Whip-like, reddish-purple stems branch from the plant’s core in an orb-like arrangement, with narrow, blueish-green leaves swaying in the breeze.",
+    "symbol": "4",
+    "color": [ "light_green", "light_green", "light_green", "brown" ],
+    "move_cost": 0,
+    "coverage": 80,
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT" ],
+    "//": "You should not be able to scale this, as Salix purpurea Nana grows to approximately 5 feet normally, even shorter on the Aleutians, which is quite a bit shorter than the established height for a single Z-level.",
+    "examine_action": "harvest_ter",
+    "harvest_by_season": [ { "seasons": [ "spring", "summer", "autumn", "winter" ], "id": "willow_harv" } ],
+    "transforms_into": "t_tree_willow_arctic_harvested",
+    "bash": {
+      "str_min": 50,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "stick", "count": [ 3, 8 ] },
+        { "item": "splinter", "count": [ 10, 20 ] },
+        { "item": "leaves", "count": [ 45, 100 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_tree_willow_arctic_harvested",
+    "looks_like": "t_tree_willow",
+    "name": "arctic willow tree",
+    "description": "This is a squat member of the Salix genus, ostensibly a form of willow tree adapted to grow in tundra and marine climates, though this specie’s brand of dwarfism lends it a greater kinship with deciduous shrubs.  Whip-like, reddish-purple stems branch from the plant’s core in an orb-like arrangement, with narrow, blueish-green leaves swaying in the breeze.  It appears as though large helpings of this specimen’s bark have been stripped away, and a suitable replacement has yet to grow.",
+    "symbol": "4",
+    "color": [ "brown", "brown", "brown", "brown" ],
+    "move_cost": 0,
+    "coverage": 80,
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT" ],
+    "//": "You should not be able to scale this, as Salix purpurea Nana grows to approximately 5 feet normally, even shorter on the Aleutians, which is quite a bit shorter than the established height for a single Z-level.",
+    "transforms_into": "t_tree_willow_arctic",
+    "bash": {
+      "str_min": 50,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "stick", "count": [ 3, 8 ] },
+        { "item": "splinter", "count": [ 10, 20 ] },
+        { "item": "leaves", "count": [ 45, 100 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_grass_dune_long",
+    "copy-from": "t_grass_long",
+    "looks_like": "t_grass_long",
+    "//": "Intended to be Elymus mollis.",
+    "name": "shaggy dune grass",
+    "description": "A tangle of bluish green foliage with flowers and stout leaves — large rhizomes firmly embedding the vegetation into the sand from which it stretches.  This species of plant, prolific along the coasts, is the foundation of the indigenous Aleut people and their craft, used in thatching rooves, producing clothing, and for bedding.  The grass here is long enough that you could cut several healthy strands if you were of that inclination.",
+    "symbol": ",",
+    "color": "green",
+    "move_cost": 3,
+    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "PLOWABLE", "SMALL_HIDE", "GRAZABLE" ],
+    "transforms_into": "t_grass_dune",
+    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+  },
+  {
+    "type": "terrain",
+    "id": "t_grass_dune",
+    "looks_like": "t_grass",
+    "//": "Intended to be Elymus mollis.",
+    "name": "dune grass",
+    "description": "A slick of stunted foliage — large rhizomes firmly embedding the vegetation into the sand from which it pokes greenish-blue tips.  This species of plant, prolific along the coasts, is the foundation of the indigenous Aleut people and their craft, used in thatching rooves, producing clothing, and for bedding.  However, the grass's usual thigh-high fronds are notable for their absence, and it’s doubtful that you’d be able to extract much usable material from what’s left.",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "PLOWABLE" ],
+    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 40, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+  },
+  {
+    "type": "terrain",
+    "id": "t_shrub_rhododendron",
+    "looks_like": "t_shrub",
+    "//": "Intended to be rhododendron camtschaticum.",
+    "name": "rhododendron shrub",
+    "description": "A native of the eastern Soviet Union, sub-arctic, and alpine regions, this deciduous bush sprawls across rocky terrain, unfurling dense folds of glossy green leaves and clusters of pink or white flowers.",
+    "symbol": "#",
+    "color": "green",
+    "move_cost": 8,
+    "coverage": 40,
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM", "SHRUB", "SHORT", "SMALL_HIDE" ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 30,
+      "sound": "crunch.",
+      "sound_fail": "brush.",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "withered", "prob": 50, "count": [ 1, 2 ] },
+        { "item": "leaves", "count": [ 1, 10 ] },
+        { "item": "twig", "prob": 80, "count": [ 1, 5 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_fern_lady",
+    "looks_like": "t_fern",
+    "//": "Intended to be Athyrium filix femina.",
+    "name": "lady fern",
+    "description": "A feathery sprawl of green, lance-shaped fronds growing in a rosette from a central core, this elegant maiden of the natural ecology stands prim and upright as its foliage rustles in the wind.  Locals and colonists alike are known to steep the plant’s tresses in boiling water, forming teas to soothe labour pains.  For some reason, you suspect that you are more likely to find utility within its edible quadrants.",
+    "symbol": "#",
+    "color": [ "brown_green", "green", "green", "green" ],
+    "move_cost": 3,
+    "examine_action": "harvest_ter",
+    "coverage": 20,
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "DIGGABLE", "FLAT", "THIN_OBSTACLE", "SHRUB", "SMALL_HIDE" ],
+    "harvest_by_season": [ { "seasons": [ "summer" ], "id": "fern_harv" } ],
+    "transforms_into": "t_fern_lady_harvested",
+    "bash": {
+      "str_min": 2,
+      "str_max": 6,
+      "sound": "crunch.",
+      "sound_fail": "whish.",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "withered", "prob": 50, "count": [ 1, 2 ] }, { "item": "leaves", "count": [ 1, 2 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_fern_lady_harvested",
+    "looks_like": "t_fern",
+    "//": "Intended to be Athyrium filix femina.",
+    "name": "lady fern",
+    "description": "A feathery sprawl of green, lance-shaped fronds growing in a rosette from a central core, this elegant maiden of the natural ecology stands prim and upright as its foliage rustles in the wind.  Locals and colonists alike are known to steep the plant’s tresses in boiling water, forming teas to soothe labour pains.  Considering the current unpleasantries, you’d find more utility in the vegetation’s edible shoots had they not already been plucked away from this particular specimen.",
+    "symbol": "#",
+    "color": "green",
+    "move_cost": 3,
+    "coverage": 20,
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "DIGGABLE", "FLAT", "THIN_OBSTACLE", "SHRUB", "SMALL_HIDE" ],
+    "examine_action": "harvested_plant",
+    "transforms_into": "t_fern_lady",
+    "bash": {
+      "str_min": 2,
+      "str_max": 6,
+      "sound": "crunch.",
+      "sound_fail": "whish.",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "withered", "prob": 50, "count": [ 1, 2 ] }, { "item": "leaves", "count": [ 1, 2 ] } ]
+    }
+  }
+]
