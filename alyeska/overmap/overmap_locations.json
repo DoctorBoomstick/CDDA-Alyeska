@@ -1,0 +1,13 @@
+[
+  {
+    "type": "overmap_location",
+    "id": "road",
+    "//": "Just adds city_center which is missing from vanilla for some reason",
+    "terrains": [ "ranch_camp_77", "road", "road_nesw_manhole", "city_center" ]
+  },
+  {
+    "type": "overmap_location",
+    "id": "country_road",
+    "terrains": [ "earth_road" ]
+  }
+]

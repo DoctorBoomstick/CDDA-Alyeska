@@ -1,9 +1,27 @@
 [
   {
     "type": "overmap_connection",
-    "id": "country_road",
+    "id": "intra_city_road",
+    "//": "Road used within cities",
+    "//1": "Dupe of vanilla local_road",
     "subtypes": [
-      { "terrain": "earth_road", "locations": [ "road" ], "basic_cost": 0, "flags": [ "ORTHOGONAL" ] },
+      { "terrain": "road", "locations": [ "road" ], "basic_cost": 0, "flags": [ "ORTHOGONAL" ] },
+      { "terrain": "road", "locations": [ "field" ], "basic_cost": 5 },
+      { "terrain": "road", "locations": [ "forest" ], "basic_cost": 20 },
+      { "terrain": "road", "locations": [ "swamp" ], "basic_cost": 40 },
+      { "terrain": "road_nesw_manhole", "locations": [  ] },
+      { "terrain": "city_center", "locations": [ "field", "road" ] },
+      { "terrain": "bridge", "locations": [ "water" ], "basic_cost": 120 },
+      { "terrain": "bridgehead_ground", "locations": [ "water" ], "basic_cost": 120, "flags": [ "ORTHOGONAL" ] }
+    ]
+  },
+  {
+    "type": "overmap_connection",
+    "id": "local_road",
+    "//": "Road used by specials, between cities and between overmaps",
+    "subtypes": [
+      { "terrain": "road", "locations": [ "road" ], "basic_cost": 0, "flags": [ "ORTHOGONAL" ] },
+      { "terrain": "earth_road", "locations": [ "country_road" ], "basic_cost": 0, "flags": [ "ORTHOGONAL" ] },
       { "terrain": "earth_road", "locations": [ "field" ], "basic_cost": 5 },
       { "terrain": "earth_road_forest", "locations": [ "forest" ], "basic_cost": 20 },
       { "terrain": "earth_road", "locations": [ "swamp" ], "basic_cost": 40 },

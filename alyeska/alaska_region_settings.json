@@ -72,8 +72,8 @@
       }
     },
     "overmap_connection_settings": {
-      "intra_city_road_connection": "local_road",
-      "inter_city_road_connection": "country_road",
+      "intra_city_road_connection": "intra_city_road",
+      "inter_city_road_connection": "local_road",
       "trail_connection": "forest_trail",
       "sewer_connection": "sewer_tunnel",
       "subway_connection": "subway_tunnel",
