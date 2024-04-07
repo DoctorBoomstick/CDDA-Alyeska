@@ -1,0 +1,14 @@
+[
+  {
+    "type": "palette",
+    "id": "cottage_palette_common",
+    "terrain": {
+      "#": "t_wall_log",
+      "|": "t_floor",
+      "o": [ [ "t_door_o", 1 ], [ "t_door_c", 2 ], [ "t_door_locked", 4 ] ],
+      "i": [ [ "t_door_o", 1 ], [ "t_door_c", 1 ] ],
+      ".": [ [ "t_region_groundcover", 4 ], [ "t_region_groundcover_forest", 2 ] ]
+    },
+    "furniture": { "0": "f_standing_tank" }
+  }
+]

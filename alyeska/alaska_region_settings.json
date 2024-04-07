@@ -379,7 +379,7 @@
       "shop_sigma": 50,
       "park_radius": 20,
       "park_sigma": 80,
-      "houses": { "bungalow01": 50 },
+      "houses": { "cottage01_normal": 50 },
       "parks": { "park": 50 },
       "shops": { "cs_market_small": 100 }
     },

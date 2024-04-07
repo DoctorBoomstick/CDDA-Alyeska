@@ -1,0 +1,9 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": [ "cottage01g_normal" ],
+    "copy-from": "generic_city_house_no_sidewalk",
+    "name": "cottage",
+    "spawns": { "group": "GROUP_VANILLA", "population": [ 1, 4 ], "chance": 0 }
+  }
+]
