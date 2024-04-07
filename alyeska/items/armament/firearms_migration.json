@@ -1,0 +1,14 @@
+[
+  {
+    "id": [ "m1911" ],
+    "type": "MIGRATION",
+    "replace": "mm_1911"
+  },
+  {
+    "id": "m1911",
+    "type": "MIGRATION",
+    "from_variant": "m1911_MEU",
+    "replace": "mm_1911",
+    "variant": "m1911_gov"
+  }
+]

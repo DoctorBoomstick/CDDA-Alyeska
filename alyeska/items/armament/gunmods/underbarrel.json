@@ -1,0 +1,22 @@
+[
+  {
+    "id": "mm_tomson_grip",
+    "type": "GUNMOD",
+    "name": { "str": "vertical foregrip" },
+    "description": "This is a secondary grip shaped from hard wood with three finger grooves and a retaining screw, intended to be mounted underneath the barrel of Tomson submachine guns to provide extra stability while shooting.",
+    "weight": "210 g",
+    "volume": "450 ml",
+    "longest_side": "150 mm",
+    "//": "Size dimensions were sourced from https://www.epicmilitaria.com/thompson-m1928-vertical-grip.html",
+    "price": 500,
+    "price_postapoc": 500,
+    "install_time": "30 s",
+    "material": [ "wood" ],
+    "symbol": ":",
+    "color": "brown",
+    "location": "underbarrel",
+    "mod_targets": [ "mm_m1921a" ],
+    "handling_modifier": 6,
+    "min_skills": [ [ "weapon", 2 ] ]
+  }
+]
