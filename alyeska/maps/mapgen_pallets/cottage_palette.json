@@ -18,6 +18,8 @@
       "l": "t_floor",
       "m": "t_floor",
       "n": "t_floor",
+      "p": "t_floor",
+      "q": "t_floor",
       "^": "t_carpet_red",
       "$": "t_railing",
       "<": "t_wood_stairs_down",
