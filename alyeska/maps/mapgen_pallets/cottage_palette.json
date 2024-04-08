@@ -10,6 +10,14 @@
       "c": "t_floor",
       "d": "t_floor",
       "e": "t_floor",
+      "f": "t_floor",
+      "g": "t_floor",
+      "h": "t_floor",
+      "j": "t_floor",
+      "k": "t_floor",
+      "l": "t_floor",
+      "m": "t_floor",
+      "n": "t_floor",
       "$": "t_railing",
       "<": "t_wood_stairs_down",
       ">": "t_wood_stairs_up",
@@ -19,6 +27,20 @@
       "+": "t_shingle_flat_roof",
       "!": "t_open_air"
     },
-    "furniture": { "a": "f_rack_coat", "b": "f_table", "c": "f_bookcase", "d": "f_desk", "e": "f_chair" }
+    "furniture": {
+      "a": "f_rack_coat",
+      "b": "f_table",
+      "c": "f_bookcase",
+      "d": "f_desk",
+      "e": "f_chair",
+      "f": "f_table",
+      "g": "f_rack_wood",
+      "h": "f_cupboard",
+      "j": "f_woodstove",
+      "k": "f_bunkbed",
+      "l": "f_chest",
+      "m": "f_dresser",
+      "n": "f_wardrobe"
+    }
   }
 ]
