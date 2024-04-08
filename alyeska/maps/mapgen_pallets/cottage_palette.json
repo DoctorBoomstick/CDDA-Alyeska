@@ -18,6 +18,7 @@
       "l": "t_floor",
       "m": "t_floor",
       "n": "t_floor",
+      "^": "t_carpet_red",
       "$": "t_railing",
       "<": "t_wood_stairs_down",
       ">": "t_wood_stairs_up",
@@ -40,7 +41,9 @@
       "k": "f_bunkbed",
       "l": "f_chest",
       "m": "f_dresser",
-      "n": "f_wardrobe"
+      "n": "f_wardrobe",
+      "p": "f_armchair",
+      "q": "f_bed"
     }
   }
 ]
