@@ -5,10 +5,18 @@
     "terrain": {
       "#": "t_wall_log",
       "|": "t_floor",
+      "a": "t_floor",
+      "b": "t_floor",
+      "c": "t_floor",
+      "d": "t_floor",
+      "e": "t_floor",
+      "$": "t_railing",
+      "<": "t_wood_stairs_down",
+      ">": "t_wood_stairs_up",
       "o": [ [ "t_door_o", 1 ], [ "t_door_c", 2 ], [ "t_door_locked", 4 ] ],
       "i": [ [ "t_door_o", 1 ], [ "t_door_c", 1 ] ],
       ".": [ [ "t_region_groundcover", 4 ], [ "t_region_groundcover_forest", 2 ] ]
     },
-    "furniture": { "0": "f_standing_tank" }
+    "furniture": { "a": "f_rack_coat", "b": "f_table", "c": "f_bookcase", "d": "f_desk", "e": "f_chair" }
   }
 ]
