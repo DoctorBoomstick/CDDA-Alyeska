@@ -1,0 +1,27 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "cottage_gun_safe1x1",
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "rows": [ "g" ],
+      "terrain": { "g": "t_floor" },
+      "furniture": { "g": [ [ "f_glass_cabinet", 1 ], [ "f_gunsafe_o", 2 ], [ "f_gunsafe_c", 2 ], [ "f_gunsafe_ml", 6 ] ] }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "cottage_book_case2x2",
+    "object": {
+      "mapgensize": [ 2, 2 ],
+      "rows": [
+        "bb",
+        " b"
+      ],
+      "terrain": { "b": "t_floor" },
+      "furniture": { "b": "f_bookcase" }
+    }
+  }
+]
