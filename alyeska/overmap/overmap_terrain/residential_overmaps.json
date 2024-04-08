@@ -5,5 +5,12 @@
     "copy-from": "generic_city_house_no_sidewalk",
     "name": "cottage",
     "spawns": { "group": "GROUP_VANILLA", "population": [ 1, 4 ], "chance": 0 }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "cottage01f2_normal" ],
+    "copy-from": "generic_city_house_no_sidewalk",
+    "name": "cottage loft",
+    "spawns": { "group": "GROUP_VANILLA", "population": [ 1, 4 ], "chance": 0 }
   }
 ]

@@ -35,5 +35,32 @@
       ],
       "palettes": [ "cottage_palette_common" ]
     }
+  },
+  {
+    "type": "mapgen",
+    "om_terrain": "cottage01f2_normal",
+    "//": "2nd floor for cottage layout 01: normal setup: no abandonment, no barricading. Pristine layout with missing, maddened, or dead occupants.",
+    "weight": 250,
+    "method": "json",
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "          +++++         ",
+        "          +++++         ",
+        " +++++++++++++         ",
+        " ++++++++++++++++++++++ ",
+        " ++++++++++++++++++++++ ",
+        " +++++################+ ",
+        " +++++#|||||||#|#||||#+ ",
+        " +++++#|||||||i|i||||#+ ",
+        " +++++#|||||||#|#||||#+ ",
+        " +++++#|||||||#|#||||#+ ",
+        " +++++#||||||##i##|||#+ ",
+        " +++++#||||||#|||#|||#+ ",
+        " +++++#||||||#<$!#|||#+ ",
+        " +++++################+ "
+      ],
+      "palettes": [ "cottage_palette_common" ]
+    }
   }
 ]

@@ -3,6 +3,9 @@
     "type": "city_building",
     "id": "cottage01_normal",
     "locations": [ "land" ],
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "cottage01g_normal_north", "locations": [ "land" ] } ]
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "cottage01g_normal_north", "locations": [ "land" ] },
+      { "point": [ 0, 0, 1 ], "overmap": "cottage01f2_normal_north", "locations": [ "land" ] }
+    ]
   }
 ]

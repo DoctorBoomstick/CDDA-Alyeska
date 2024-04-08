@@ -15,7 +15,9 @@
       ">": "t_wood_stairs_up",
       "o": [ [ "t_door_o", 1 ], [ "t_door_c", 2 ], [ "t_door_locked", 4 ] ],
       "i": [ [ "t_door_o", 1 ], [ "t_door_c", 1 ] ],
-      ".": [ [ "t_region_groundcover", 4 ], [ "t_region_groundcover_forest", 2 ] ]
+      ".": [ [ "t_region_groundcover", 4 ], [ "t_region_groundcover_forest", 2 ] ],
+      "+": "t_shingle_flat_roof",
+      "!": "t_open_air"
     },
     "furniture": { "a": "f_rack_coat", "b": "f_table", "c": "f_bookcase", "d": "f_desk", "e": "f_chair" }
   }
