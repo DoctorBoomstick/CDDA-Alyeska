@@ -21,6 +21,9 @@
       "p": "t_floor",
       "q": "t_floor",
       "^": "t_carpet_red",
+      "s": "t_carpet_red",
+      "t": "t_carpet_red",
+      "u": "t_carpet_red",
       "$": "t_railing",
       "<": "t_wood_stairs_down",
       ">": "t_wood_stairs_up",
@@ -28,6 +31,7 @@
       "i": [ [ "t_door_o", 1 ], [ "t_door_c", 1 ] ],
       ".": [ [ "t_region_groundcover", 4 ], [ "t_region_groundcover_forest", 2 ] ],
       "+": "t_shingle_flat_roof",
+      "v": "t_shingle_flat_roof",
       "!": "t_open_air"
     },
     "furniture": {
@@ -45,7 +49,12 @@
       "m": "f_dresser",
       "n": "f_wardrobe",
       "p": "f_armchair",
-      "q": "f_bed"
+      "q": "f_bed",
+      "r": "f_fireplace",
+      "s": "f_armchair",
+      "t": "f_sofa",
+      "u": "f_coffee_table",
+      "v": "f_chimney"
     }
   }
 ]
