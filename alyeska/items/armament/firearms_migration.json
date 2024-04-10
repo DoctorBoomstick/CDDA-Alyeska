@@ -5,9 +5,9 @@
     "replace": "1911"
   },
   {
-    "id": "m1911",
+    "id": "m1911_MEU",
     "type": "MIGRATION",
-    "from_variant": "m1911_MEU",
+    "from_variant": "m1911",
     "replace": "1911",
     "variant": "m1911_gov"
   }

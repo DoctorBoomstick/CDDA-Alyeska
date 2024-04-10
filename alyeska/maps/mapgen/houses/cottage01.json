@@ -34,7 +34,7 @@
         "........................"
       ],
       "palettes": [ "cottage_palette_common" ],
-      "place_nested": [ { "chunks": [ [ "null", 25 ], [ "cottage_gun_safe2x2", 25 ], [ "cottage_book_case2x2", 50 ] ], "x": 10, "y": 18 } ]
+      "place_nested": [ { "chunks": [ [ "null", 25 ], [ "cottage_gun_safe2x2", 25 ], [ "cottage_book_case2x2", 50 ] ], "x": 10, "y": 4 } ]
     }
   },
   {
@@ -72,7 +72,7 @@
         "                        "
       ],
       "palettes": [ "cottage_palette_common" ],
-      "place_nested": [ { "chunks": [ [ "null", 25 ], [ "cottage_gun_safe2x2", 25 ], [ "cottage_book_case2x2", 50 ] ], "x": 12, "y": 16 } ]
+      "place_nested": [ { "chunks": [ [ "null", 25 ], [ "cottage_gun_safe2x2", 25 ], [ "cottage_book_case2x2", 50 ] ], "x": 12, "y": 6 } ]
     }
   },
   {

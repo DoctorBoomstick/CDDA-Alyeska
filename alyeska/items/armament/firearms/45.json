@@ -92,7 +92,7 @@
     "to_hit": { "grip": "solid", "length": "short", "surface": "any", "balance": "uneven" },
     "handling": 10,
     "//4": "Normal handling for anything with a stock is 20. We bump it down to ten here so you can’t take off the stock and totle along without being affected. The difference is made up by the gun’s removable buttstock mod.",
-    "default_mods": [ "mm_tomson_grip", "mm_tomson_stock" ],
+    "default_mods": [ "tomson_grip", "tomson_stock" ],
     "valid_mod_locations": [
       [ "barrel", 1 ],
       [ "brass catcher", 1 ],
