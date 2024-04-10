@@ -1,9 +1,9 @@
 [
   {
-    "id": "mm_1911",
+    "id": "1911",
     "copy-from": "m1911",
     "type": "GUN",
-    "name": { "str": "Colt .45 pistol" },
+    "name": { "str": "Colt service pistol" },
     "description": "Hefty, powerful, and the latest in self-loading pistol technology, this deep blue-finished handgun is the current issue sidearm of United States Army officers and non-infantry troops, chambered in the 45-Automatic cartridge and feeding from detachable 7-round box magazines.  This piece might well have seen your contemporaries through the great war; you just hope it’ll also stand up to your current predicament.",
     "variant_type": "gun",
     "variants": [
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "id": "mm_c_m1917",
+    "id": "c_m1917",
     "copy-from": "pistol_revolver",
     "type": "GUN",
     "looks_like": "colt_saa",
@@ -69,7 +69,7 @@
     "melee_damage": { "bash": 9 }
   },
   {
-    "id": "mm_m1921a",
+    "id": "m1921a",
     "type": "GUN",
     "copy-from": "tommygun",
     "name": { "str": ".45-caliber Tommygun" },

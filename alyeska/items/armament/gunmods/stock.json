@@ -1,6 +1,6 @@
 [
   {
-    "id": "mm_tomson_stock",
+    "id": "tomson_stock",
     "type": "GUNMOD",
     "name": { "str": "quick-detach stock" },
     "description": "This is a quick-release, rail-mounted buttstock for Tomson submachine guns, made from wood and pulled free through the use of a button mounted atop the receiver.",
