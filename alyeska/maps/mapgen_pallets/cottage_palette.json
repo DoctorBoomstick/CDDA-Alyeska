@@ -21,8 +21,6 @@
       "p": "t_floor",
       "q": "t_floor",
       "^": "t_carpet_red",
-      "s": "t_carpet_red",
-      "t": "t_carpet_red",
       "u": "t_carpet_red",
       "$": "t_railing",
       "<": "t_wood_stairs_down",
@@ -51,9 +49,6 @@
       "p": "f_armchair",
       "q": "f_bed",
       "r": "f_fireplace",
-      "s": "f_armchair",
-      "t": "f_sofa",
-      "u": "f_coffee_table",
       "v": "f_chimney"
     }
   }

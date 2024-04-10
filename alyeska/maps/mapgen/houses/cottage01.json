@@ -14,11 +14,11 @@
         ".#c||c######i##########.",
         ".#|||||||||#|#ddd#hhjh#.",
         ".#|||||||||#|#|e|#|||h#.",
-        ".#||^^^^^||#|#|||#|||g#.",
-        ".#||^ttt^||#|##i##|||g#.",
-        ".#||^^u^^||i||||||||||#.",
-        ".#||^s^s^||#|##i##|ee|#.",
-        ".#||^^^^^||#|#b||#|ff|#.",
+        ".#|||||||||#|#|||#|||g#.",
+        ".#|||||||||#|##i##|||g#.",
+        ".#|||||||||i||||||||||#.",
+        ".#|||||||||#|##i##|ee|#.",
+        ".#||0||||||#|#b||#|ff|#.",
         ".#c||||||||#|#|||#|ee|#.",
         ".#rc|||||||#|#>$<#||||#.",
         ".###########o##########.",
@@ -34,7 +34,21 @@
         "........................"
       ],
       "palettes": [ "cottage_palette_common" ],
-      "place_nested": [ { "chunks": [ [ "null", 25 ], [ "cottage_gun_safe2x2", 25 ], [ "cottage_book_case2x2", 50 ] ], "x": 10, "y": 4 } ]
+      "place_nested": [
+        { "chunks": [ [ "null", 25 ], [ "cottage_gun_safe2x2", 25 ], [ "cottage_bookcase_corner2x2", 50 ] ], "x": 9, "y": 4 }
+      ],
+      "nested": {
+        "0": {
+          "chunks": [
+            [ "cottage_livingroom_centre5x5_1", 100 ],
+            [ "cottage_livingroom_centre5x5_2", 100 ],
+            [ "cottage_livingroom_centre5x5_3", 100 ],
+            [ "cottage_livingroom_centre5x5_4", 100 ],
+            [ "cottage_livingroom_centre5x5_5", 100 ],
+            [ "cottage_livingroom_centre5x5_6", 100 ]
+          ]
+        }
+      }
     }
   },
   {
@@ -72,7 +86,7 @@
         "                        "
       ],
       "palettes": [ "cottage_palette_common" ],
-      "place_nested": [ { "chunks": [ [ "null", 25 ], [ "cottage_gun_safe2x2", 25 ], [ "cottage_book_case2x2", 50 ] ], "x": 12, "y": 6 } ]
+      "place_nested": [ { "chunks": [ [ "null", 25 ], [ "cottage_gun_safe2x2", 25 ], [ "cottage_bookcase_sbs2x2", 50 ] ], "x": 12, "y": 6 } ]
     }
   },
   {

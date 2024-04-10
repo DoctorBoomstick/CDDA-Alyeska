@@ -3,6 +3,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "cottage_gun_safe2x2",
+    "//": "One gun-containing article of furniture positioned on the north-eastern tile.",
     "object": {
       "mapgensize": [ 2, 2 ],
       "rows": [
@@ -16,7 +17,8 @@
   {
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "cottage_book_case2x2",
+    "nested_mapgen_id": "cottage_bookcase_corner2x2",
+    "//": "3 bookcases positioned for a north-eastern room corner.",
     "object": {
       "mapgensize": [ 2, 2 ],
       "rows": [
@@ -25,6 +27,135 @@
       ],
       "terrain": { "b": "t_floor" },
       "furniture": { "b": "f_bookcase" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "cottage_bookcase_sbs2x2",
+    "//": "2 bookcases positioned side by side.",
+    "object": {
+      "mapgensize": [ 2, 2 ],
+      "rows": [
+        "bb",
+        "  "
+      ],
+      "terrain": { "b": "t_floor" },
+      "furniture": { "b": "f_bookcase" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "cottage_livingroom_centre5x5_1",
+    "//": "A 5 by 5 section of carpet with various furniture positioned atop it, intended for use at the heart of a living room.",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rows": [
+        "+++++",
+        "+aaa+",
+        "++c++",
+        "+b+b+",
+        "+++++"
+      ],
+      "terrain": { "+": "t_carpet_red", "a": "t_carpet_red", "b": "t_carpet_red", "c": "t_carpet_red" },
+      "furniture": { "a": "f_sofa", "b": "f_armchair", "c": "f_coffee_table" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "cottage_livingroom_centre5x5_2",
+    "//": "A 5 by 5 section of carpet with various furniture positioned atop it, intended for use at the heart of a living room.",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rows": [
+        "+++++",
+        "+aaa+",
+        "++b++",
+        "+aaa+",
+        "+++++"
+      ],
+      "terrain": { "+": "t_carpet_purple", "a": "t_carpet_purple", "b": "t_carpet_purple" },
+      "furniture": { "a": "f_sofa", "b": "f_coffee_table" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "cottage_livingroom_centre5x5_3",
+    "//": "A 5 by 5 section of carpet with various furniture positioned atop it, intended for use at the heart of a living room.",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rows": [
+        "+++++",
+        "++a++",
+        "+aba+",
+        "++a++",
+        "+++++"
+      ],
+      "terrain": { "+": "t_carpet_green", "a": "t_carpet_green", "b": "t_carpet_green" },
+      "furniture": { "a": "f_armchair", "b": "f_coffee_table" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "cottage_livingroom_centre5x5_4",
+    "//": "A 5 by 5 section of carpet with various furniture positioned atop it, intended for use at the heart of a living room.",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rows": [
+        "+++++",
+        "+aaa+",
+        "+++++",
+        "b+++b",
+        "+cbc+"
+      ],
+      "terrain": { "+": "t_carpet_red", "a": "t_carpet_red", "b": "t_carpet_red", "c": "t_carpet_red" },
+      "furniture": { "a": "f_sofa", "b": "f_armchair", "c": "f_table" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "cottage_livingroom_centre5x5_5",
+    "//": "A 5 by 5 section of carpet with various furniture positioned atop it, intended for use at the heart of a living room.",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rows": [
+        "+a+++",
+        "a+++d",
+        "b+c+d",
+        "a+++d",
+        "+a+++"
+      ],
+      "terrain": {
+        "+": "t_carpet_purple",
+        "a": "t_carpet_purple",
+        "b": "t_carpet_purple",
+        "c": "t_carpet_purple",
+        "d": "t_carpet_purple"
+      },
+      "furniture": { "a": "f_armchair", "b": "f_table", "c": "f_coffee_table", "d": "f_sofa" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "cottage_livingroom_centre5x5_6",
+    "//": "A 5 by 5 section of carpet with various furniture positioned atop it, intended for use at the heart of a living room.",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rows": [
+        "+a+a+",
+        "b+++b",
+        "a+c+a",
+        "b+++b",
+        "+a+a+"
+      ],
+      "terrain": { "+": "t_carpet_green", "a": "t_carpet_green", "b": "t_carpet_green", "c": "t_carpet_green" },
+      "furniture": { "a": "f_armchair", "b": "f_table", "c": "f_coffee_table" }
     }
   }
 ]
