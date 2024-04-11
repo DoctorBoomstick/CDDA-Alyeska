@@ -20,16 +20,14 @@
       "n": "t_floor",
       "p": "t_floor",
       "q": "t_floor",
+      "r": "t_floor",
+      "s": "t_floor",
       "^": "t_carpet_red",
-      "u": "t_carpet_red",
       "$": "t_railing",
       "<": "t_wood_stairs_down",
       ">": "t_wood_stairs_up",
       "o": [ [ "t_door_c", 2 ], [ "t_door_locked", 6 ] ],
       "i": [ [ "t_door_o", 1 ], [ "t_door_c", 2 ] ],
-      "y": [ [ "t_door_metal_corrugated_c", 1 ], [ "t_door_c", 1 ] ],
-      "w": "t_wall_wood",
-      "*": "t_metal_flat_roof",
       ".": [ [ "t_region_groundcover", 4 ], [ "t_region_groundcover_forest", 2 ] ],
       "+": "t_shingle_flat_roof",
       "v": "t_shingle_flat_roof",
@@ -53,7 +51,22 @@
       "p": "f_armchair",
       "q": "f_bed",
       "r": "f_fireplace",
+      "s": "f_washstand",
       "v": "f_chimney"
     }
+  },
+  {
+    "type": "palette",
+    "id": "outhouse_palette",
+    "terrain": {
+      "|": "t_floor",
+      "a": "t_dirtfloor",
+      "b": "t_floor",
+      "1": "t_door_c",
+      "2": "t_door_metal_corrugated_c",
+      "#": "t_wall_wood",
+      ".": "t_region_groundcover"
+    },
+    "furniture": { "a": "f_latrine_bucket", "b": "f_washstand" }
   }
 ]

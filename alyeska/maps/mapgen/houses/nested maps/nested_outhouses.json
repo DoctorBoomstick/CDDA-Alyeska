@@ -1,0 +1,68 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "outhouse_3x3_1",
+    "//": "A 3x3 tile outhouse.",
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "rows": [
+        "#1#",
+        "#a#",
+        "###"
+      ],
+      "palettes": [ "cottage_palette_common" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "outhouse_5x5_1",
+    "//": "A 5x4 tile outhouse with two latrines and a washstand.",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rows": [
+        ".....",
+        "##1##",
+        "#|||#",
+        "#aba#",
+        "#####"
+      ],
+      "palettes": [ "cottage_palette_common" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "outhouse_5x5_2",
+    "//": "A 5x4 tile outhouse with two stalls.",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rows": [
+        ".....",
+        ".....",
+        "#2#2#",
+        "#a#a#",
+        "#####"
+      ],
+      "palettes": [ "cottage_palette_common" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "outhouse_5x5_3",
+    "//": "a 5x3 outhouse with 2 back-to-back stalls.",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rows": [
+        ".....",
+        "#####",
+        "2a#a2",
+        "#####",
+        "....."
+      ],
+      "palettes": [ "cottage_palette_common" ]
+    }
+  }
+]

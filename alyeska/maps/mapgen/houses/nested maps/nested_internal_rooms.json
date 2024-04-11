@@ -47,6 +47,21 @@
   {
     "type": "mapgen",
     "method": "json",
+    "nested_mapgen_id": "cottage_washstand2x2",
+    "//": "One washstand positioned on the north-eastern tile.",
+    "object": {
+      "mapgensize": [ 2, 2 ],
+      "rows": [
+        " w",
+        "  "
+      ],
+      "terrain": { "w": "t_floor" },
+      "furniture": { "w": "f_washstand" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
     "nested_mapgen_id": "cottage_livingroom_centre5x5_1",
     "//": "A 5 by 5 section of carpet with various furniture positioned atop it, intended for use at the heart of a living room.",
     "object": {
