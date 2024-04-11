@@ -25,11 +25,15 @@
       "$": "t_railing",
       "<": "t_wood_stairs_down",
       ">": "t_wood_stairs_up",
-      "o": [ [ "t_door_o", 1 ], [ "t_door_c", 2 ], [ "t_door_locked", 4 ] ],
-      "i": [ [ "t_door_o", 1 ], [ "t_door_c", 1 ] ],
+      "o": [ [ "t_door_c", 2 ], [ "t_door_locked", 6 ] ],
+      "i": [ [ "t_door_o", 1 ], [ "t_door_c", 2 ] ],
+      "y": [ [ "t_door_metal_corrugated_c", 1 ], [ "t_door_c", 1 ] ],
+      "w": "t_wall_wood",
+      "*": "t_metal_flat_roof",
       ".": [ [ "t_region_groundcover", 4 ], [ "t_region_groundcover_forest", 2 ] ],
       "+": "t_shingle_flat_roof",
       "v": "t_shingle_flat_roof",
+      "'": "t_splitrail_fence",
       "!": "t_open_air"
     },
     "furniture": {

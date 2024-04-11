@@ -1,0 +1,32 @@
+[
+  {
+    "id": "basen",
+    "looks_like": "bowl_clay",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "washbasin" },
+    "description": "This is a large and heavy ceramic bowl with thick sides and a rounded construction — the former tenant of a washstand.  Capable of retaining a good amount of liquid, it is, unsurprisingly, cumbersome, unwieldy, and fairly hefty.",
+    "weight": "9000 g",
+    "volume": "36758 ml",
+    "longest_side": "465 mm",
+    "//": "Dimensions derived from https://www.specifiedby.com/dreambath/wash-hand-basin",
+    "ascii_picture": "bowl_clay",
+    "price": 100,
+    "price_postapoc": 10,
+    "to_hit": { "grip": "bad", "length": "short", "surface": "any", "balance": "clumsy" },
+    "material": [ "ceramic" ],
+    "color": "white",
+    "symbol": ")",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "open_container": true,
+        "max_contains_volume": "8200 ml",
+        "max_contains_weight": "30 kg"
+      }
+    ],
+    "qualities": [ [ "BOIL", 2 ], [ "CONTAIN", 1 ] ]
+  }
+]

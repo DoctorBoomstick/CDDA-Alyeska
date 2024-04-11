@@ -1,0 +1,129 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_latrine_bucket",
+    "name": "bucket latrine",
+    "description": "Contemplating the roughly circular hole cut into this horizontal sheet of plywood, you aren’t quite certain that something isn’t gazing back at you as you stare into the abyss.  An economic measure for areas lacking sewer lines, this latrine is, quite literally, just an unfortunate bucket positioned beneath a carved wooden platform.  In a pinch, you suppose that you could always liberate the pale from its purgatory.",
+    "symbol": "O",
+    "color": "brown",
+    "move_cost_mod": 2,
+    "coverage": 35,
+    "required_str": -1,
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE",
+      "CONTAINER",
+      "ORGANIC",
+      "MOUNTABLE",
+      "SHORT",
+      "LIQUIDCONT",
+      "PLACE_ITEM",
+      "EASY_DECONSTRUCT",
+      "SMALL_HIDE"
+    ],
+    "max_volume": "200 L",
+    "examine_action": "keg",
+    "keg_capacity": 20,
+    "deconstruct": { "furn_set": "f_latrine_empty", "items": [ { "item": "bucket", "count": 1 } ] },
+    "bash": {
+      "str_min": 8,
+      "str_max": 35,
+      "sound": "smash!",
+      "sound_fail": "wham!",
+      "items": [ { "item": "2x4", "count": [ 2, 4 ] }, { "item": "nail", "charges": [ 2, 10 ] }, { "item": "bucket", "count": 1 } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_latrine_empty",
+    "name": "emptied latrine",
+    "description": "This is a horizontal sheet of plywood with a roughly circular chunk carved out of it in the vague mimicry of a lavatory seat.  Uncomfortable in the best of circumstances, a shallow depression in the dirt below marks the spot where a bucket had stood.",
+    "symbol": "O",
+    "color": "brown",
+    "move_cost_mod": 2,
+    "coverage": 35,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "FLAMMABLE", "ORGANIC", "MOUNTABLE", "SHORT", "SMALL_HIDE" ],
+    "deconstruct": {
+      "items": [ { "item": "2x4", "count": 4 }, { "item": "wood_panel", "count": 1 }, { "item": "nail", "charges": [ 6, 10 ] } ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 35,
+      "sound": "smash!",
+      "sound_fail": "wham!",
+      "items": [ { "item": "2x4", "count": [ 2, 4 ] }, { "item": "nail", "charges": [ 2, 10 ] } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_washstand",
+    "name": "washstand",
+    "description": "A wooden cabinet with a ceramic washing basin bedded into the top and ample room for pitchers, soaps, and other necessities for one’s personal ablutions.  With the rise of plumbing, this is, on the mainland, almost certain to become an anachronism; however, in areas where such luxuries are absent, it remains the only practical way to cleanse dishes, clothes, and one’s faculties.  You could always huck out the basin for your own purposes, should you require it.",
+    "color": "white",
+    "symbol": "&",
+    "move_cost_mod": 2,
+    "coverage": 60,
+    "required_str": -1,
+    "flags": [
+      "TRANSPARENT",
+      "FLAMMABLE",
+      "CONTAINER",
+      "ORGANIC",
+      "MOUNTABLE",
+      "SHORT",
+      "LIQUIDCONT",
+      "PLACE_ITEM",
+      "EASY_DECONSTRUCT",
+      "SMALL_HIDE"
+    ],
+    "connect_groups": "COUNTER",
+    "connects_to": "COUNTER",
+    "rotates_to": "INDOORFLOOR",
+    "max_volume": "200 L",
+    "examine_action": "keg",
+    "keg_capacity": 33,
+    "deconstruct": { "furn_set": "f_washstand_empty", "items": [ { "item": "basen", "count": 1 } ] },
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "shattering ceramics!",
+      "sound_fail": "whunk!",
+      "items": [
+        { "item": "2x4", "count": [ 1, 3 ] },
+        { "item": "wood_panel", "count": [ 0, 1 ] },
+        { "item": "nail", "charges": [ 2, 6 ] },
+        { "item": "ceramic_shard", "count": [ 45, 60 ] }
+      ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_washstand_empty",
+    "name": "bare washstand",
+    "description": "Formerly a receptacle for the pursuit of cleanliness, whether dishes, cloathing, or one’s own person, this wooden cabinet has had its large basin removed and is now, essentially, a stout cupboard.",
+    "color": "white",
+    "symbol": "&",
+    "move_cost_mod": 2,
+    "coverage": 50,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "FLAMMABLE", "CONTAINER", "ORGANIC", "MOUNTABLE", "SHORT", "PLACE_ITEM", "SMALL_HIDE" ],
+    "connect_groups": "COUNTER",
+    "connects_to": "COUNTER",
+    "rotates_to": "INDOORFLOOR",
+    "deconstruct": {
+      "items": [ { "item": "2x4", "count": 4 }, { "item": "wood_panel", "count": 1 }, { "item": "nail", "charges": [ 4, 8 ] } ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "smash!",
+      "sound_fail": "wham!",
+      "items": [
+        { "item": "2x4", "count": [ 1, 3 ] },
+        { "item": "wood_panel", "count": [ 0, 1 ] },
+        { "item": "nail", "charges": [ 2, 6 ] }
+      ]
+    }
+  }
+]
