@@ -52,7 +52,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": "cobbled_city_center",
+    "om_terrain": "city_center",
     "object": {
       "fill_ter": "t_region_grass",
       "place_nested": [ { "chunks": [ "24x24_cobbled_road_four_way" ], "x": 0, "y": 0 } ],
