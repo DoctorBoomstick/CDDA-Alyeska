@@ -11,7 +11,7 @@
         "#a#",
         "###"
       ],
-      "palettes": [ "cottage_palette_common" ]
+      "palettes": [ "outhouse_palette" ]
     }
   },
   {
@@ -28,7 +28,7 @@
         "#aba#",
         "#####"
       ],
-      "palettes": [ "cottage_palette_common" ]
+      "palettes": [ "outhouse_palette" ]
     }
   },
   {
@@ -45,7 +45,7 @@
         "#a#a#",
         "#####"
       ],
-      "palettes": [ "cottage_palette_common" ]
+      "palettes": [ "outhouse_palette" ]
     }
   },
   {
@@ -62,7 +62,7 @@
         "#####",
         "....."
       ],
-      "palettes": [ "cottage_palette_common" ]
+      "palettes": [ "outhouse_palette" ]
     }
   }
 ]

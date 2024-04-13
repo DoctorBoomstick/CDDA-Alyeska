@@ -1,0 +1,62 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "cobbled_road_end",
+    "object": {
+      "predecessor_mapgen": "field",
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
+      "place_nested": [ { "chunks": [ "24x24_cobbled_road_end" ], "x": 0, "y": 0 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "cobbled_road_straight",
+    "object": {
+      "predecessor_mapgen": "field",
+      "place_nested": [ { "chunks": [ "24x24_cobbled_road_straight" ], "x": 0, "y": 0 } ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "cobbled_road_curved",
+    "object": {
+      "predecessor_mapgen": "field",
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
+      "place_nested": [ { "chunks": [ "24x24_cobbled_road_curved" ], "x": 0, "y": 0 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "cobbled_road_tee",
+    "object": {
+      "predecessor_mapgen": "field",
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
+      "place_nested": [ { "chunks": [ "24x24_cobbled_road_tee" ], "x": 0, "y": 0 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "cobbled_road_four_way",
+    "object": {
+      "predecessor_mapgen": "field",
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
+      "place_nested": [ { "chunks": [ "24x24_cobbled_road_four_way" ], "x": 0, "y": 0 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "cobbled_city_center",
+    "object": {
+      "fill_ter": "t_region_grass",
+      "place_nested": [ { "chunks": [ "24x24_cobbled_road_four_way" ], "x": 0, "y": 0 } ],
+      "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ]
+    }
+  }
+]
