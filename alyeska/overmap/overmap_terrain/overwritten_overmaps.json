@@ -83,24 +83,12 @@
   {
     "type": "overmap_terrain",
     "id": "cobbled_road",
-    "name": "street",
     "copy-from": "generic_transportation",
+    "name": "street",
     "color": "dark_gray",
     "see_cost": 2,
     "travel_cost_type": "road",
     "extras": "road",
     "flags": [ "LINEAR", "REQUIRES_PREDECESSOR" ]
-  },
-  {
-    "type": "overmap_terrain",
-    "id": "city_center",
-    "copy-from": "generic_transportation",
-    "name": "village square",
-    "sym": "┼",
-    "color": "dark_gray",
-    "see_cost": 2,
-    "travel_cost_type": "road",
-    "extras": "city_center",
-    "flags": [ "NO_ROTATE" ]
   }
 ]

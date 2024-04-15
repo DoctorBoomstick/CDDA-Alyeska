@@ -109,6 +109,43 @@
   },
   {
     "type": "terrain",
+    "id": "t_tree_spruce",
+    "looks_like": "t_tree_pine",
+    "name": "spruce tree",
+    "description": "Clearly not of native stock, this gnarled, age-worn evergreen tree stands watch over the wind-blasted terrain like an alien giant.  Likely planted when the islands were still Russian territory, before the 60s, the tree’s needle-like leaves rustle in the breeze as it’s greyish copper timber creeks.  You fancy it to almost be a protest at its abandonment.",
+    "symbol": "4",
+    "color": "green",
+    "move_cost": 0,
+    "coverage": 80,
+    "roof": "t_treetop_evergreen",
+    "flags": [ "FLAMMABLE_ASH", "NOITEM", "SUPPORTS_ROOF", "TREE", "REDUCE_SCENT", "CLIMB_ADJACENT" ],
+    "transforms_into": "t_tree_spruce_harvested",
+    "examine_action": "harvest_ter",
+    "harvest_by_season": [ { "seasons": [ "spring", "summer", "autumn", "winter" ], "id": "pine_harv" } ],
+    "bash": {
+      "str_min": 80,
+      "str_max": 180,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "stick_long", "count": [ 3, 10 ] }, { "item": "splinter", "count": [ 10, 25 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_tree_spruce_harvested",
+    "copy-from": "t_tree_pine",
+    "looks_like": "t_tree_pine_harvested",
+    "name": "spruce tree",
+    "description": "Clearly not of native stock, this gnarled, age-worn evergreen tree stands watch over the wind-blasted terrain like an alien giant.  Likely planted when the islands were still Russian territory, before the 60s, the tree’s needle-like leaves rustle in the breeze as it’s greyish copper timber creeks.  You fancy it to almost be a protest at its abandonment.",
+    "symbol": "4",
+    "color": "brown",
+    "roof": "t_treetop_evergreen",
+    "transforms_into": "t_tree_spruce",
+    "examine_action": "harvested_plant"
+  },
+  {
+    "type": "terrain",
     "id": "t_grass_dune_long",
     "copy-from": "t_grass_long",
     "looks_like": "t_grass_long",

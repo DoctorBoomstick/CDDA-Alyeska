@@ -1,0 +1,181 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "native_tree_1x1",
+    "//": "A solitary tree of a native species.",
+    "object": { "mapgensize": [ 1, 1 ], "rows": [ "1" ], "palettes": [ "cobbled_rotary_palette" ] }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "imported_tree_1x1",
+    "//": "A solitary tree of an imported species.",
+    "object": { "mapgensize": [ 1, 1 ], "rows": [ "2" ], "palettes": [ "cobbled_rotary_palette" ] }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "dead_tree_1x1",
+    "//": "A solitary, dead tree of an imported or native species.",
+    "object": { "mapgensize": [ 1, 1 ], "rows": [ "3" ], "palettes": [ "cobbled_rotary_palette" ] }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "shrub_1x1",
+    "//": "A solitary, decorative or fruit-baring shrub.",
+    "object": { "mapgensize": [ 1, 1 ], "rows": [ "4" ], "palettes": [ "cobbled_rotary_palette" ] }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "native_vegetation_3x3",
+    "//": "A collection of vegetation spawns: bushes with native trees.",
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "rows": [
+        "|||",
+        "|||",
+        "|||"
+      ],
+      "palettes": [ "cobbled_rotary_palette" ],
+      "place_nested": [
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "native_tree_1x1" ] ], "x": [ 0, 2 ], "y": [ 0, 2 ] },
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "native_tree_1x1" ] ], "x": [ 0, 1 ], "y": [ 0, 1 ] },
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "native_tree_1x1" ] ], "x": [ 1, 2 ], "y": [ 0, 2 ] },
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "native_tree_1x1" ] ], "x": [ 1, 2 ], "y": [ 0, 1 ] }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "imported_vegetation_3x3",
+    "//": "A collection of vegetation spawns: bushes with imported trees.",
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "rows": [
+        "|||",
+        "|||",
+        "|||"
+      ],
+      "palettes": [ "cobbled_rotary_palette" ],
+      "place_nested": [
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "imported_tree_1x1" ] ], "x": [ 0, 2 ], "y": [ 0, 2 ] },
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "imported_tree_1x1" ] ], "x": [ 0, 1 ], "y": [ 0, 1 ] },
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "imported_tree_1x1" ] ], "x": [ 1, 2 ], "y": [ 0, 2 ] },
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "imported_tree_1x1" ] ], "x": [ 1, 2 ], "y": [ 0, 1 ] }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "dead_vegetation_3x3",
+    "//": "A collection of vegetation spawns: bushes with dead trees.",
+    "object": {
+      "mapgensize": [ 3, 3 ],
+      "rows": [
+        "|||",
+        "|||",
+        "|||"
+      ],
+      "palettes": [ "cobbled_rotary_palette" ],
+      "place_nested": [
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "dead_tree_1x1" ] ], "x": [ 0, 2 ], "y": [ 0, 2 ] },
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "dead_tree_1x1" ] ], "x": [ 0, 1 ], "y": [ 0, 1 ] },
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "dead_tree_1x1" ] ], "x": [ 1, 2 ], "y": [ 0, 2 ] },
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "dead_tree_1x1" ] ], "x": [ 1, 2 ], "y": [ 0, 1 ] }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "native_vegetation_rotary_6x6",
+    "//": "A nested map for use at the core of street rotaries.",
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rows": [
+        "0  0  ",
+        "      ",
+        "      ",
+        "0  0  ",
+        "      ",
+        "      "
+      ],
+      "palettes": [ "cobbled_rotary_palette" ],
+      "nested": { "0": { "chunks": [ [ "native_vegetation_3x3" ] ] } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "imported_vegetation_rotary_6x6",
+    "//": "A nested map for use at the core of street rotaries.",
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rows": [
+        "0  0  ",
+        "      ",
+        "      ",
+        "0  0  ",
+        "      ",
+        "      "
+      ],
+      "palettes": [ "cobbled_rotary_palette" ],
+      "nested": { "0": { "chunks": [ [ "imported_vegetation_3x3" ] ] } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "dead_vegetation_rotary_6x6",
+    "//": "A nested map for use at the core of street rotaries.",
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rows": [
+        "0  0  ",
+        "      ",
+        "      ",
+        "0  0  ",
+        "      ",
+        "      "
+      ],
+      "palettes": [ "cobbled_rotary_palette" ],
+      "nested": { "0": { "chunks": [ [ "dead_vegetation_3x3" ] ] } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "vegetation_rotary_10x10",
+    "//": "a rotary with a patch of greenery and vegetation at its core, surrounded by railings and seats.",
+    "object": {
+      "mapgensize": [ 10, 10 ],
+      "rows": [
+        "aa  aa  aa",
+        "a########a",
+        " #0     # ",
+        " #      # ",
+        "a#      #a",
+        "a#      #a",
+        " #      # ",
+        " #      # ",
+        "a########a",
+        "aa  aa  aa"
+      ],
+      "palettes": [ "cobbled_rotary_palette" ],
+      "nested": {
+        "0": {
+          "chunks": [
+            [ "native_vegetation_rotary_6x6", 150 ],
+            [ "imported_vegetation_rotary_6x6", 150 ],
+            [ "dead_vegetation_rotary_6x6", 100 ]
+          ]
+        }
+      }
+    }
+  }
+]
