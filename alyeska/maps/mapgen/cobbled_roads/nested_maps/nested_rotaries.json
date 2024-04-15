@@ -42,9 +42,8 @@
       "palettes": [ "cobbled_rotary_palette" ],
       "place_nested": [
         { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "native_tree_1x1" ] ], "x": [ 0, 2 ], "y": [ 0, 2 ] },
-        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "native_tree_1x1" ] ], "x": [ 0, 1 ], "y": [ 0, 1 ] },
-        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "native_tree_1x1" ] ], "x": [ 1, 2 ], "y": [ 0, 2 ] },
-        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "native_tree_1x1" ] ], "x": [ 1, 2 ], "y": [ 0, 1 ] }
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "native_tree_1x1" ] ], "x": [ 0, 2 ], "y": [ 0, 2 ] },
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "native_tree_1x1" ] ], "x": [ 0, 2 ], "y": [ 0, 2 ] }
       ]
     }
   },
@@ -63,9 +62,8 @@
       "palettes": [ "cobbled_rotary_palette" ],
       "place_nested": [
         { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "imported_tree_1x1" ] ], "x": [ 0, 2 ], "y": [ 0, 2 ] },
-        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "imported_tree_1x1" ] ], "x": [ 0, 1 ], "y": [ 0, 1 ] },
-        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "imported_tree_1x1" ] ], "x": [ 1, 2 ], "y": [ 0, 2 ] },
-        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "imported_tree_1x1" ] ], "x": [ 1, 2 ], "y": [ 0, 1 ] }
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "imported_tree_1x1" ] ], "x": [ 0, 2 ], "y": [ 0, 2 ] },
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "imported_tree_1x1" ] ], "x": [ 0, 2 ], "y": [ 0, 2 ] }
       ]
     }
   },
@@ -84,9 +82,8 @@
       "palettes": [ "cobbled_rotary_palette" ],
       "place_nested": [
         { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "dead_tree_1x1" ] ], "x": [ 0, 2 ], "y": [ 0, 2 ] },
-        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "dead_tree_1x1" ] ], "x": [ 0, 1 ], "y": [ 0, 1 ] },
-        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "dead_tree_1x1" ] ], "x": [ 1, 2 ], "y": [ 0, 2 ] },
-        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "dead_tree_1x1" ] ], "x": [ 1, 2 ], "y": [ 0, 1 ] }
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "dead_tree_1x1" ] ], "x": [ 0, 2 ], "y": [ 0, 2 ] },
+        { "chunks": [ [ "null" ], [ "shrub_1x1" ], [ "dead_tree_1x1" ] ], "x": [ 0, 2 ], "y": [ 0, 2 ] }
       ]
     }
   },
