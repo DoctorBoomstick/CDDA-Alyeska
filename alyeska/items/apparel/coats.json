@@ -1,0 +1,163 @@
+[
+  {
+    "id": "coat_oilskin_long",
+    "type": "ARMOR",
+    "looks_like": "duster",
+    "name": { "str": "long oilskin jacket" },
+    "description": "An all-encompassing jacket made from roughly stitched canvas treated with either oil or wax to render it waterproof, with hems that trail to the knee, an inner cotton lining, and a drawstring hood.  A shelter against the tempestuous whims of the north, the coat’s stylings leave much to be desired; unfortunately, it both smells and looks like an old sail repurposed as a coat.  Indeed, you aren’t convinced that it, once upon a time, wasn’t.",
+    "weight": "3120 g",
+    "volume": "6350 ml",
+    "price": 1626,
+    "price_postapoc": 1626,
+    "//": "price obtained from converting the price of a modern oilskin jacket, $289.95, to the 1930 standard using https://www.amortization.org/inflation/amount.php?year=1930&amount=16.26&to=2024",
+    "material": [ { "type": "canvas", "portion": 3 }, { "type": "cotton", "portion": 1 } ],
+    "color": "dark_gray",
+    "symbol": "[",
+    "armor": [
+      {
+        "material": [
+          { "type": "canvas", "covered_by_mat": 100, "thickness": 1 },
+          { "type": "cotton", "covered_by_mat": 75, "thickness": 0.6 }
+        ],
+        "covers": [ "torso" ],
+        "coverage": 100,
+        "encumbrance": [ 8, 14 ]
+      },
+      {
+        "material": [ { "type": "canvas", "covered_by_mat": 100, "thickness": 1 } ],
+        "covers": [ "leg_l", "leg_r" ],
+        "coverage": 86,
+        "encumbrance": [ 5, 6 ],
+        "specifically_covers": [ "leg_draped_l", "leg_draped_r", "leg_hip_l", "leg_hip_r", "leg_upper_l", "leg_upper_r", "leg_knee_l", "leg_knee_r" ],
+        "layers": [ "BELTED" ]
+      },
+      {
+        "material": [
+          { "type": "canvas", "covered_by_mat": 100, "thickness": 1 },
+          { "type": "cotton", "covered_by_mat": 90, "thickness": 0.4 }
+        ],
+        "covers": [ "arm_l", "arm_r" ],
+        "coverage": 100,
+        "encumbrance": [ 8, 8 ]
+      }
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "864 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "16 cm",
+        "description": "Hip pocket.",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "864 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "16 cm",
+        "description": "Hip pocket.",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "585 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "20 cm",
+        "description": "Breast pocket.",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "228 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "13 cm",
+        "description": "Internal pocket.",
+        "moves": 150
+      }
+    ],
+    "warmth": 24,
+    "material_thickness": 1.6,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "POCKETS", "OUTER", "HOOD", "WATERPROOF" ]
+  },
+  {
+    "id": "coat_oilskin_short",
+    "type": "ARMOR",
+    "looks_like": "duster",
+    "name": { "str": "short oilskin jacket" },
+    "description": "Stitched from heavy canvas treated with oil to render it waterproof and padded with a cotton liner, this short-cut jacket comes down to the hip and envelops one within a vaguely smelly bundle of fabric.  A friend for the far north or ocean-born excursions — even if it does look like a repurposed sailcloth — its fleece-lined pockets and drawstring hood will keep out the worst of the islands' many, many storms.",
+    "weight": "2910 g",
+    "volume": "5650 ml",
+    "price": 1513,
+    "price_postapoc": 1513,
+    "//": "price obtained from converting the price of a modern oilskin jacket, $269.95, to the 1930 standard using https://www.amortization.org/inflation/amount.php?year=1930&amount=15.13&to=2024",
+    "material": [ { "type": "canvas", "portion": 3 }, { "type": "cotton", "portion": 1 } ],
+    "color": "dark_gray",
+    "symbol": "[",
+    "armor": [
+      {
+        "material": [
+          { "type": "canvas", "covered_by_mat": 100, "thickness": 1 },
+          { "type": "cotton", "covered_by_mat": 75, "thickness": 0.6 }
+        ],
+        "covers": [ "torso" ],
+        "coverage": 100,
+        "encumbrance": [ 8, 14 ]
+      },
+      {
+        "material": [ { "type": "canvas", "covered_by_mat": 100, "thickness": 1 } ],
+        "covers": [ "leg_l", "leg_r" ],
+        "coverage": 75,
+        "encumbrance": [ 5, 6 ],
+        "specifically_covers": [ "leg_hip_l", "leg_hip_r" ]
+      },
+      {
+        "material": [
+          { "type": "canvas", "covered_by_mat": 100, "thickness": 1 },
+          { "type": "cotton", "covered_by_mat": 90, "thickness": 0.4 }
+        ],
+        "covers": [ "arm_l", "arm_r" ],
+        "coverage": 100,
+        "encumbrance": [ 8, 8 ]
+      }
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "864 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "16 cm",
+        "description": "Hip pocket.",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "864 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "16 cm",
+        "description": "Hip pocket.",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "585 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "20 cm",
+        "description": "Breast pocket.",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "228 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "13 cm",
+        "description": "Internal pocket.",
+        "moves": 150
+      }
+    ],
+    "warmth": 24,
+    "material_thickness": 1.6,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "POCKETS", "OUTER", "HOOD", "WATERPROOF" ]
+  }
+]

@@ -32,7 +32,7 @@
     "id": "t_cobblestone",
     "looks_like": "t_rock_floor",
     "name": "cobblestone",
-    "description": "a section of roughly paved ground inlayed with square-cut stones, bound together by mortar, and set in sand.  More practical than pretty, you’re a long way away from the properly paved streets of the mainland’s cities.",
+    "description": "A section of roughly paved ground inlayed with square-cut stones, bound together by mortar, and set in sand.  More practical than pretty, you’re a long way away from the properly paved streets of the mainland’s cities.",
     "color": "light_gray",
     "symbol": ".",
     "connect_groups": "ROCKFLOOR",

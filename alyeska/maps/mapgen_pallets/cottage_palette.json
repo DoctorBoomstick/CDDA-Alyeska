@@ -28,6 +28,7 @@
       ">": "t_wood_stairs_up",
       "o": [ [ "t_door_c", 2 ], [ "t_door_locked", 6 ] ],
       "i": [ [ "t_door_o", 1 ], [ "t_door_c", 2 ] ],
+      "t": [ [ "t_window_open", 1 ], [ "t_curtains", 6 ], [ "t_window_domestic", 8 ] ],
       ".": [ [ "t_region_groundcover", 4 ], [ "t_region_groundcover_forest", 2 ] ],
       "+": "t_shingle_flat_roof",
       "v": "t_shingle_flat_roof",

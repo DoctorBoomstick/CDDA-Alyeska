@@ -5,7 +5,7 @@
     "terrain": {
       "|": "t_cobblestone",
       ".": "t_region_groundcover",
-      "*": [ [ "t_region_groundcover", 2 ], [ "t_region_shrub_decorative", 2 ], [ "t_region_tree", 2 ] ]
+      "*": [ [ "t_region_tree", 1 ], [ "t_region_groundcover", 3 ], [ "t_region_shrub_decorative", 3 ] ]
     }
   }
 ]
