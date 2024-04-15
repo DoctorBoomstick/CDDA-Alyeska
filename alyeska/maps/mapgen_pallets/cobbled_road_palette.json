@@ -15,11 +15,13 @@
       "a": "t_cobblestone",
       "|": "t_region_groundcover",
       "#": "t_metal_railing",
+      "+": "field stone half-wall",
       "1": "t_region_tree",
       "2": [ [ "t_tree_deadpine", 1 ], [ "t_tree_spruce", 3 ] ],
       "3": "t_region_tree_dead",
-      "4": "t_region_shrub"
+      "4": "t_region_shrub",
+      "5": "t_region_groundcover"
     },
-    "furniture": { "a": "f_bench_park" }
+    "furniture": { "a": "f_bench_park", "5": "f_region_flower_decorative" }
   }
 ]

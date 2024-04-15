@@ -30,6 +30,16 @@
   {
     "type": "mapgen",
     "method": "json",
+    "nested_mapgen_id": "flowerbed_2x2",
+    "//": "A 2 by 2 square of decorative flowers.",
+    "object": { "mapgensize": [ 2, 2 ], "rows": [
+        "55",
+        "55"
+      ], "palettes": [ "cobbled_rotary_palette" ] }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
     "nested_mapgen_id": "native_vegetation_3x3",
     "//": "A collection of vegetation spawns: bushes with native trees.",
     "object": {
@@ -150,6 +160,25 @@
   {
     "type": "mapgen",
     "method": "json",
+    "nested_mapgen_id": "flower_rotary_6x6",
+    "//": "A nested map for use at the core of street rotaries.",
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rows": [
+        "1   1 ",
+        "      ",
+        "  1   ",
+        "      ",
+        "1   1 ",
+        "      "
+      ],
+      "palettes": [ "cobbled_rotary_palette" ],
+      "nested": { "0": { "chunks": [ "dead_vegetation_3x3" ] } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
     "nested_mapgen_id": "vegetation_rotary_10x10",
     "//": "a rotary with a patch of greenery and vegetation at its core, surrounded by railings and seats.",
     "object": {
@@ -172,7 +201,8 @@
           "chunks": [
             [ "native_vegetation_rotary_6x6", 150 ],
             [ "imported_vegetation_rotary_6x6", 150 ],
-            [ "dead_vegetation_rotary_6x6", 100 ]
+            [ "dead_vegetation_rotary_6x6", 100 ],
+            [ "flower_rotary_6x6", 150 ]
           ]
         }
       }
