@@ -1,0 +1,7 @@
+[
+  {
+    "type": "overmap_location",
+    "id": "country_road",
+    "terrains": [ "earth_road" ]
+  }
+]
