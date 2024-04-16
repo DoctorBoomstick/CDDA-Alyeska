@@ -1,0 +1,34 @@
+[
+  {
+    "id": "shoes_formal_women",
+    "type": "item_group",
+    "//": "neat shoes for formal events and gatherings that would have, logically, been worn by a 1930s woman.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "heels", "prob": 100 },
+      { "item": "boots_fur", "prob": 85 },
+      { "item": "knee_high_boots", "prob": 70 },
+      { "item": "thigh_high_boots", "prob": 50 },
+      { "item": "dress_shoes", "prob": 50 }
+    ]
+  },
+  {
+    "id": "shoes_formal_men",
+    "type": "item_group",
+    "//": "neat shoes for formal events and gatherings that would have, logically, been worn by a 1930s man.",
+    "subtype": "distribution",
+    "entries": [ { "item": "boots_fur", "prob": 85 }, { "item": "boots", "prob": 85 }, { "item": "dress_shoes", "prob": 80 } ]
+  },
+  {
+    "id": "shoes_outdoors_unisex",
+    "type": "item_group",
+    "//": "Sensibly practical shoes that would have, logically, been worn by a 1930s man or woman while partaking in outdoor activities. Turns out that gender stereotypes, at least in footwear, collapse in the face of wading through the arctic.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "boots_fur", "prob": 85 },
+      { "item": "boots_winter", "prob": 85 },
+      { "item": "boots", "prob": 85 },
+      { "item": "knee_high_boots", "prob": 70 }
+    ]
+  }
+]

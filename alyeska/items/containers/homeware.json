@@ -27,6 +27,7 @@
         "max_contains_weight": "30 kg"
       }
     ],
-    "qualities": [ [ "BOIL", 2 ], [ "CONTAIN", 1 ] ]
+    "qualities": [ [ "BOIL", 2 ], [ "CONTAIN", 1 ] ],
+    "melee_damage": { "bash": 8 }
   }
 ]

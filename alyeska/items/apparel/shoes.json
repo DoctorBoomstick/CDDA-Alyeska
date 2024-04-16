@@ -1,0 +1,153 @@
+[
+  {
+    "id": "boots_ankle_fur",
+    "looks_like": "boots_fur",
+    "type": "ARMOR",
+    "name": { "str": "pair of ankle boots", "str_pl": "pairs of ankle boots" },
+    "description": "A pair of stout leather boots with thick soles, a 5-inch shaft, and a comfortable fur lining guaranteed to keep one’s stompers toasty, even in the arctic.",
+    "weight": "2268 g",
+    "volume": "4955 ml",
+    "longest_side": "160 mm",
+    "price": 824,
+    "price_postapoc": 824,
+    "//": "Calculated by converting the price of a modern set of comparable boots, $147, to the 1930 standard using https://www.dollartimes.com/inflation/inflation.php?amount=147&year=1930",
+    "to_hit": { "grip": "bad", "length": "hand", "surface": "any", "balance": "neutral" },
+    "material": [ { "type": "leather", "portion": 3 }, { "type": "fur", "portion": 2 } ],
+    "color": "brown",
+    "symbol": "[",
+    "armor": [
+      {
+        "covers": [ "foot_l", "foot_r" ],
+        "specifically_covers": [
+          "foot_toes_r",
+          "foot_toes_l",
+          "foot_ankle_r",
+          "foot_ankle_l",
+          "foot_heel_r",
+          "foot_heel_l",
+          "foot_arch_r",
+          "foot_arch_l"
+        ],
+        "material": [
+          { "type": "leather", "covered_by_mat": 100, "thickness": 1.5 },
+          { "type": "fur", "covered_by_mat": 100, "thickness": 1.5 }
+        ],
+        "encumbrance": 20,
+        "coverage": 100
+      },
+      {
+        "covers": [ "foot_l", "foot_r" ],
+        "specifically_covers": [ "foot_sole_r", "foot_sole_l" ],
+        "material": [
+          { "type": "fur", "covered_by_mat": 100, "thickness": 0.5 },
+          { "type": "leather", "covered_by_mat": 100, "thickness": 4.0 }
+        ],
+        "coverage": 100
+      }
+    ],
+    "warmth": 40,
+    "material_thickness": 3,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "RAINPROOF" ],
+    "melee_damage": { "bash": 2 },
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "boots_ankle_fox",
+        "name": { "str": "pair of fox-fur ankle boots", "str_pl": "pairs of fox-fur ankle boots" },
+        "description": "A carpet of rather matted, reddish brown fox fur lines these particular boots’ interiors and trims the tops of each shaft.",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "boots_ankle_beaver",
+        "name": { "str": "pair of beaver-fur ankle boots", "str_pl": "pairs of beaver-fur ankle boots" },
+        "description": "A sleek lining of brown beaver fur trims each boot’s insides, with a ring of brown and black dappled pelts ringing the apex of each shaft.",
+        "weight": 8,
+        "append": true
+      },
+      {
+        "id": "boots_ankle_seal",
+        "name": { "str": "pair of seal-skin ankle boots", "str_pl": "pairs of seal-skin ankle boots" },
+        "description": "In classic Arctic fashion, these boots have been lined and trimmed with harbour seal fur, a soft, water-repellent coating of silvery grey hairs dappled with dark spots.",
+        "weight": 6,
+        "append": true
+      }
+    ]
+  },
+  {
+    "id": "boots_platform_fur",
+    "copy-from": "boots_ankle_fur",
+    "type": "ARMOR",
+    "name": { "str": "pair of platform boots", "str_pl": "pairs of platform boots" },
+    "description": "A vogue staple of style on the mainland, these are a pair of refined-looking ankle boots with a fur-trimmed shaft, zip-up sides, and a 3-inch wooden heel elevating the wearer skywards.  While good for looking tall, keeping feet out of the cold, and slowing one’s pace to a saunter, their usage just might be rather ill advised, considering your current situation.",
+    "weight": "2495 g",
+    "volume": "5295 ml",
+    "longest_side": "236 mm",
+    "price": 1004,
+    "price_postapoc": 1004,
+    "//": "Calculated by converting the price of a modern set of comparable boots, $179, to the 1930 standard using https://www.dollartimes.com/inflation/inflation.php?amount=147&year=1930",
+    "material": [ { "type": "leather", "portion": 3 }, { "type": "fur", "portion": 2 }, { "type": "wood", "portion": 1 } ],
+    "armor": [
+      {
+        "covers": [ "foot_l", "foot_r" ],
+        "specifically_covers": [
+          "foot_toes_r",
+          "foot_toes_l",
+          "foot_ankle_r",
+          "foot_ankle_l",
+          "foot_heel_r",
+          "foot_heel_l",
+          "foot_arch_r",
+          "foot_arch_l"
+        ],
+        "material": [
+          { "type": "leather", "covered_by_mat": 100, "thickness": 1.5 },
+          { "type": "fur", "covered_by_mat": 100, "thickness": 1.5 }
+        ],
+        "encumbrance": 50,
+        "coverage": 100
+      },
+      {
+        "covers": [ "foot_l", "foot_r" ],
+        "specifically_covers": [ "foot_sole_r", "foot_sole_l" ],
+        "material": [
+          { "type": "fur", "covered_by_mat": 100, "thickness": 0.5 },
+          { "type": "leather", "covered_by_mat": 100, "thickness": 4.0 },
+          { "type": "wood", "covered_by_mat": 45, "thickness": 7.6 }
+        ],
+        "coverage": 100
+      }
+    ],
+    "//2": "45% coverage of the sole by 7.6 cm of wood is to represent the heel.",
+    "warmth": 40,
+    "material_thickness": 3,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "RAINPROOF" ],
+    "melee_damage": { "bash": 2 },
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "boots_platform_fox",
+        "name": { "str": "pair of fox-fur platform boots", "str_pl": "pairs of fox-fur platform boots" },
+        "description": "A carpet of rather matted, reddish brown fox fur lines these particular boots’ interiors and trims the tops of each shaft.",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "boots_platform_beaver",
+        "name": { "str": "pair of beaver-fur platform boots", "str_pl": "pairs of beaver-fur platform boots" },
+        "description": "A sleek lining of brown beaver fur trims each boot’s insides, with a ring of brown and black dappled pelts ringing the apex of each shaft.",
+        "weight": 8,
+        "append": true
+      },
+      {
+        "id": "boots_platform_seal",
+        "name": { "str": "pair of seal-skin platform boots", "str_pl": "pairs of seal-skin platform boots" },
+        "description": "In classic Arctic fashion, these boots have been lined and trimmed with harbour seal fur, a soft, water-repellent coating of silvery grey hairs dappled with dark spots.",
+        "weight": 6,
+        "append": true
+      }
+    ]
+  }
+]
