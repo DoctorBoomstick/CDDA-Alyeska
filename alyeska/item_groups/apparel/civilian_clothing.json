@@ -2,22 +2,21 @@
   {
     "id": "shoes_formal_women",
     "type": "item_group",
-    "//": "neat shoes for formal events and gatherings that would have, logically, been worn by a 1930s woman.",
+    "//": "Neat shoes for formal events and gatherings that would have, logically, been worn by a 1930s woman.",
     "subtype": "distribution",
     "entries": [
-      { "item": "heels", "prob": 100 },
-      { "item": "boots_fur", "prob": 85 },
+      { "item": "heels", "prob": 85 },
+      { "item": "boots_platform_fur", "prob": 85 },
       { "item": "knee_high_boots", "prob": 70 },
-      { "item": "thigh_high_boots", "prob": 50 },
-      { "item": "dress_shoes", "prob": 50 }
+      { "item": "boots_ankle_fur", "prob": 70 }
     ]
   },
   {
     "id": "shoes_formal_men",
     "type": "item_group",
-    "//": "neat shoes for formal events and gatherings that would have, logically, been worn by a 1930s man.",
+    "//": "Neat shoes for formal events and gatherings that would have, logically, been worn by a 1930s man.",
     "subtype": "distribution",
-    "entries": [ { "item": "boots_fur", "prob": 85 }, { "item": "boots", "prob": 85 }, { "item": "dress_shoes", "prob": 80 } ]
+    "entries": [ { "item": "boots_ankle_fur", "prob": 85 }, { "item": "boots", "prob": 60 }, { "item": "dress_shoes", "prob": 60 } ]
   },
   {
     "id": "shoes_outdoors_unisex",
@@ -25,10 +24,141 @@
     "//": "Sensibly practical shoes that would have, logically, been worn by a 1930s man or woman while partaking in outdoor activities. Turns out that gender stereotypes, at least in footwear, collapse in the face of wading through the arctic.",
     "subtype": "distribution",
     "entries": [
-      { "item": "boots_fur", "prob": 85 },
+      { "item": "boots_ankle_fur", "prob": 85 },
       { "item": "boots_winter", "prob": 85 },
       { "item": "boots", "prob": 85 },
       { "item": "knee_high_boots", "prob": 70 }
     ]
+  },
+  {
+    "id": "legwear_formal_women",
+    "type": "item_group",
+    "//": "Neat legwear for formal events and gatherings that would have, logically, been worn by a 1930s woman.",
+    "subtype": "distribution",
+    "entries": [ { "item": "skirt_long", "prob": 85 }, { "item": "skirt", "prob": 50 }, { "item": "pants", "prob": 10 } ]
+  },
+  {
+    "id": "legwear_formal_men",
+    "type": "item_group",
+    "//": "Neat legwear for formal events and gatherings that would have, logically, been worn by a 1930s man.",
+    "subtype": "distribution",
+    "entries": [ { "item": "breeches", "prob": 100 }, { "item": "pants", "prob": 100 } ]
+  },
+  {
+    "id": "legwear_outdoors_women",
+    "type": "item_group",
+    "//": "Sensible outdoor legwear that would have been worn by a 1930s woman.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "skirt_long", "prob": 85 },
+      {
+        "collection": [
+          { "item": "pants_oilskin", "prob": 85 },
+          { "distribution": [ { "item": "pants", "prob": 100 }, { "item": "breeches", "prob": 100 } ] }
+        ],
+        "prob": 10
+      }
+    ]
+  },
+  {
+    "id": "legwear_outdoors_men",
+    "type": "item_group",
+    "//": "Sensible outdoor legwear that would have been worn by a 1930s man.",
+    "subtype": "distribution",
+    "entries": [
+      {
+        "collection": [
+          { "item": "pants_oilskin", "prob": 85 },
+          { "distribution": [ { "item": "pants", "prob": 100 }, { "item": "breeches", "prob": 100 } ] }
+        ],
+        "prob": 10
+      }
+    ]
+  },
+  {
+    "id": "coats_formal_unisex",
+    "type": "item_group",
+    "//": "Neat jackets for formal events and gatherings that would have, logically, been worn by a 1930s woman or man.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "coat_fur", "prob": 80 },
+      { "item": "trenchcoat_fur", "prob": 75 },
+      { "item": "duster_fur", "prob": 75 },
+      { "item": "greatcoat", "prob": 60 },
+      { "item": "coat_winter", "prob": 60 },
+      { "item": "trenchcoat", "prob": 50 },
+      { "item": "duster", "prob": 50 }
+    ]
+  },
+  {
+    "id": "coats_outdoors_unisex",
+    "type": "item_group",
+    "//": "Sensibly practical jackets that would have, logically, been worn by a 1930s man or woman while partaking in outdoor activities. Turns out that gender stereotypes, at least in  coats, collapse in the face of wading through the arctic.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "coat_oilskin_long", "prob": 100 },
+      { "item": "coat_oilskin_short", "prob": 85 },
+      { "item": "greatcoat", "prob": 85 },
+      { "item": "coat_winter", "prob": 80 },
+      { "item": "trenchcoat_fur", "prob": 75 },
+      { "item": "duster_fur", "prob": 75 },
+      { "item": "trenchcoat", "prob": 50 },
+      { "item": "duster", "prob": 50 },
+      { "item": "coat_fur", "prob": 25 }
+    ]
+  },
+  {
+    "id": "outfit_formal_women",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "A complete woman’s outfit for formal events and gatherings.",
+    "items": [
+      { "group": "shoes_formal_women" },
+      { "group": "legwear_formal_women" },
+      { "group": "coats_formal_unisex", "prob": 50 }
+    ]
+  },
+  {
+    "id": "outfit_formal_men",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "A complete man's outfit for formal events and gatherings.",
+    "items": [ { "group": "shoes_formal_men" }, { "group": "legwear_formal_men" }, { "group": "coats_formal_unisex", "prob": 50 } ]
+  },
+  {
+    "id": "outfit_outdoors_women",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "A complete woman’s outfit for outdoor activities.",
+    "items": [
+      { "group": "shoes_outdoors_women" },
+      { "group": "legwear_outdoors_women" },
+      { "group": "coats_outdoors_unisex", "prob": 50 }
+    ]
+  },
+  {
+    "id": "outfit_outdoors_men",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "A complete man's outfit for outdoor activities.",
+    "items": [
+      { "group": "shoes_outdoors_men" },
+      { "group": "legwear_outdoors_men" },
+      { "group": "coats_outdoors_unisex", "prob": 50 }
+    ]
+  },
+  {
+    "id": "outfits_complete_women",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "A selection of complete outfits suitable for a 1930 woman.",
+    "items": [ { "group": "outfit_formal_women", "prob": 25 }, { "group": "outfit_outdoors_women", "prob": 50 } ]
+  },
+  {
+    "id": "outfits_complete_men",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "A selection of complete outfits suitable for a 1930 woman.",
+    "items": [ { "group": "outfit_formal_men", "prob": 25 }, { "group": "outfit_outdoors_men", "prob": 50 } ]
   }
 ]

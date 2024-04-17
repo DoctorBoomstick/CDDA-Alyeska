@@ -1,0 +1,54 @@
+[
+  {
+    "id": "pants_oilskin",
+    "type": "ARMOR",
+    "looks_like": "breeches",
+    "name": { "str": "oilskin overalls", "str_pl": "pairs of oilskin overalls" },
+    "description": "Designed for the express purpose of keeping one’s person free of liquid intrusion, this pair of high-waisted pants is crudely made from a heavy canvas material impregnated with oil.  Coarse to the touch, the legs possess securing straps to be tied about boots, while a set of braces loops across the shoulders for maximal security of one’s breeches.",
+    "weight": "1040 g",
+    "volume": "2 L",
+    "price": 448,
+    "price_postapoc": 448,
+    "//": "price obtained from converting the price of a modern set of oilskin pants, $79.95, to the 1930 standard using https://www.amortization.org/inflation/amount.php?year=1930&amount=16.26&to=2024",
+    "material": [ "canvas" ],
+    "color": "dark_gray",
+    "symbol": "[",
+    "armor": [
+      {
+        "material": [ { "type": "canvas", "covered_by_mat": 100, "thickness": 2.0 } ],
+        "covers": [ "torso" ],
+        "specifically_covers": [ "torso_waist", "torso_lower" ],
+        "coverage": 75,
+        "encumbrance": [ 10, 14 ]
+      },
+      {
+        "material": [ { "type": "canvas", "covered_by_mat": 100, "thickness": 2.0 } ],
+        "covers": [ "leg_l", "leg_r" ],
+        "coverage": 100,
+        "encumbrance": [ 10, 10 ]
+      }
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1080 ml",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "165 mm",
+        "description": "Side pocket.",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1080 ml",
+        "max_contains_weight": "4 kg",
+        "max_item_length": "165 mm",
+        "description": "Side pocket.",
+        "moves": 80
+      }
+    ],
+    "warmth": 24,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "POCKETS", "OUTER", "STURDY", "WATERPROOF" ]
+  }
+]

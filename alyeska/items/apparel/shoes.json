@@ -17,6 +17,10 @@
     "symbol": "[",
     "armor": [
       {
+        "material": [
+          { "type": "leather", "covered_by_mat": 100, "thickness": 1.5 },
+          { "type": "fur", "covered_by_mat": 100, "thickness": 1.5 }
+        ],
         "covers": [ "foot_l", "foot_r" ],
         "specifically_covers": [
           "foot_toes_r",
@@ -28,20 +32,16 @@
           "foot_arch_r",
           "foot_arch_l"
         ],
-        "material": [
-          { "type": "leather", "covered_by_mat": 100, "thickness": 1.5 },
-          { "type": "fur", "covered_by_mat": 100, "thickness": 1.5 }
-        ],
         "encumbrance": 20,
         "coverage": 100
       },
       {
-        "covers": [ "foot_l", "foot_r" ],
-        "specifically_covers": [ "foot_sole_r", "foot_sole_l" ],
         "material": [
           { "type": "fur", "covered_by_mat": 100, "thickness": 0.5 },
-          { "type": "leather", "covered_by_mat": 100, "thickness": 4.0 }
+          { "type": "leather", "covered_by_mat": 100, "thickness": 6.0 }
         ],
+        "covers": [ "foot_l", "foot_r" ],
+        "specifically_covers": [ "foot_sole_r", "foot_sole_l" ],
         "coverage": 100
       }
     ],
@@ -113,8 +113,8 @@
         "specifically_covers": [ "foot_sole_r", "foot_sole_l" ],
         "material": [
           { "type": "fur", "covered_by_mat": 100, "thickness": 0.5 },
-          { "type": "leather", "covered_by_mat": 100, "thickness": 4.0 },
-          { "type": "wood", "covered_by_mat": 45, "thickness": 7.6 }
+          { "type": "leather", "covered_by_mat": 100, "thickness": 6.0 },
+          { "type": "wood", "covered_by_mat": 25, "thickness": 76.2 }
         ],
         "coverage": 100
       }
