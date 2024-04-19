@@ -50,7 +50,7 @@
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
-        "max_contains_volume": "12 l",
+        "max_contains_volume": "12000 ml",
         "max_contains_weight": "4536 g",
         "description": "Hanger shoulders.",
         "moves": 120,
@@ -58,7 +58,7 @@
       },
       {
         "pocket_type": "CONTAINER",
-        "max_contains_volume": "8 l",
+        "max_contains_volume": "8000 ml",
         "max_contains_weight": "2268 g",
         "description": "Trouser bar.",
         "moves": 140,

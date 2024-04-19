@@ -19,7 +19,8 @@
         "covers": [ "torso" ],
         "specifically_covers": [ "torso_waist", "torso_lower" ],
         "coverage": 75,
-        "encumbrance": [ 10, 14 ]
+        "encumbrance": [ 10, 14 ],
+        "layers": [ "BELTED" ]
       },
       {
         "material": [ { "type": "canvas", "covered_by_mat": 100, "thickness": 2.0 } ],
@@ -49,6 +50,6 @@
     "warmth": 24,
     "material_thickness": 2,
     "environmental_protection": 2,
-    "flags": [ "VARSIZE", "POCKETS", "OUTER", "STURDY", "WATERPROOF", "HANGABLE" ]
+    "flags": [ "VARSIZE", "POCKETS", "OUTER", "STURDY", "WATERPROOF", "HANGABLE_TROUSERS" ]
   }
 ]

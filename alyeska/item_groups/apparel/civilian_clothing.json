@@ -131,7 +131,7 @@
     "subtype": "collection",
     "//": "A complete woman’s outfit for outdoor activities.",
     "items": [
-      { "group": "shoes_outdoors_women" },
+      { "group": "shoes_outdoors_unisex" },
       { "group": "legwear_outdoors_women" },
       { "group": "coats_outdoors_unisex", "prob": 50 }
     ]
@@ -142,7 +142,7 @@
     "subtype": "collection",
     "//": "A complete man's outfit for outdoor activities.",
     "items": [
-      { "group": "shoes_outdoors_men" },
+      { "group": "shoes_outdoors_unisex" },
       { "group": "legwear_outdoors_men" },
       { "group": "coats_outdoors_unisex", "prob": 50 }
     ]
@@ -214,9 +214,8 @@
     "//": "A collection of all shoes, outdoor, formal, etc. Gender doesn’t matter; this is for use in areas like wardrobes, mudrooms, and the like.",
     "items": [
       { "group": "shoes_formal_women", "prob": 25 },
-      { "group": "shoes_formal_men", "prob": 50 },
-      { "group": "shoes_outdoors_women", "prob": 25 },
-      { "group": "shoes_outdoors_men", "prob": 25 }
+      { "group": "shoes_formal_men", "prob": 25 },
+      { "group": "shoes_outdoors_unisex", "prob": 75 }
     ]
   }
 ]
