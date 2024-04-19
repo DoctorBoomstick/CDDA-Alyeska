@@ -49,6 +49,6 @@
     "warmth": 24,
     "material_thickness": 2,
     "environmental_protection": 2,
-    "flags": [ "VARSIZE", "POCKETS", "OUTER", "STURDY", "WATERPROOF" ]
+    "flags": [ "VARSIZE", "POCKETS", "OUTER", "STURDY", "WATERPROOF", "HANGABLE" ]
   }
 ]

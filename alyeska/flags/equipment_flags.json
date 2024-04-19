@@ -1,0 +1,14 @@
+[
+  {
+    "id": "HANGABLE_COAT",
+    "type": "json_flag",
+    "info": "This item can be hung on a cloaths hanger",
+    "restriction": "Item must be a garment that may be hung on a clothing hanger"
+  },
+  {
+    "id": "HANGABLE_TROUSERS",
+    "type": "json_flag",
+    "info": "This item can be hung on a clothing rack’s trouser bar",
+    "restriction": "Item must be a pair of trousers or a comparable garment"
+  }
+]

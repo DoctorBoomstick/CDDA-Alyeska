@@ -78,7 +78,7 @@
     "warmth": 24,
     "material_thickness": 1.6,
     "environmental_protection": 2,
-    "flags": [ "VARSIZE", "POCKETS", "OUTER", "HOOD", "WATERPROOF" ]
+    "flags": [ "VARSIZE", "POCKETS", "OUTER", "HOOD", "WATERPROOF", "HANGABLE" ]
   },
   {
     "id": "coat_oilskin_short",
@@ -158,6 +158,6 @@
     "warmth": 24,
     "material_thickness": 1.6,
     "environmental_protection": 2,
-    "flags": [ "VARSIZE", "POCKETS", "OUTER", "HOOD", "WATERPROOF" ]
+    "flags": [ "VARSIZE", "POCKETS", "OUTER", "HOOD", "WATERPROOF", "HANGABLE" ]
   }
 ]

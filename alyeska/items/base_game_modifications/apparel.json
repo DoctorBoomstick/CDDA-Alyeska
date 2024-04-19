@@ -1,0 +1,79 @@
+[
+  {
+    "id": "skirt_long",
+    "type": "ARMOR",
+    "copy-from": "skirt_long",
+    "name": { "str": "long skirt" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "skirt",
+    "type": "ARMOR",
+    "copy-from": "skirt",
+    "name": { "str": "skirt" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "pants",
+    "type": "ARMOR",
+    "copy-from": "pants",
+    "name": { "str": "pants", "str_pl": "pairs of pants" },
+    "extend": { "flags": [ "HANGABLE_TROUSERS" ] }
+  },
+  {
+    "id": "breeches",
+    "type": "ARMOR",
+    "copy-from": "breeches",
+    "name": { "str": "breeches", "str_pl": "pairs of breeches" },
+    "extend": { "flags": [ "HANGABLE_TROUSERS" ] }
+  },
+  {
+    "id": "coat_fur",
+    "type": "ARMOR",
+    "copy-from": "coat_fur",
+    "name": { "str": "fur coat" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "trenchcoat_fur",
+    "type": "ARMOR",
+    "copy-from": "trenchcoat_fur",
+    "name": { "str": "fur trenchcoat" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "duster_fur",
+    "type": "ARMOR",
+    "copy-from": "duster_fur",
+    "name": { "str": "fur duster" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "greatcoat",
+    "type": "ARMOR",
+    "copy-from": "greatcoat",
+    "name": { "str": "greatcoat" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "coat_winter",
+    "type": "ARMOR",
+    "copy-from": "coat_winter",
+    "name": { "str": "winter coat" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "trenchcoat",
+    "type": "ARMOR",
+    "copy-from": "trenchcoat",
+    "name": { "str": "trenchcoat" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "duster",
+    "type": "ARMOR",
+    "copy-from": "duster",
+    "name": { "str": "duster" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  }
+]

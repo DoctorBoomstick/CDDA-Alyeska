@@ -29,5 +29,42 @@
     ],
     "qualities": [ [ "BOIL", 2 ], [ "CONTAIN", 1 ] ],
     "melee_damage": { "bash": 8 }
+  },
+  {
+    "id": "coat_hanger",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "cloaths hanger" },
+    "description": "An ordinary, wooden hanger for suspending clothing within wardrobes, with braud shoulders and a trouser bar for storing a set of pants.",
+    "weight": "160 g",
+    "volume": "467 ml",
+    "longest_side": "44 cm",
+    "//": "Dimensions derived from https://thehangerstore.co.uk/product/wooden-economy-suit-hanger-44cm-natural/",
+    "price": 8,
+    "price_postapoc": 8,
+    "//2": "Calculated by taking a 10 pack of clothes hangers, dividing the price by 10, $1.37, and converting it to the 1930 standard using https://www.dollartimes.com/inflation/inflation.php?amount=1.37&year=1930",
+    "to_hit": { "grip": "none", "length": "short", "surface": "any", "balance": "uneven" },
+    "material": [ "wood" ],
+    "color": "brown",
+    "symbol": ")",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "12 l",
+        "max_contains_weight": "4536 g",
+        "description": "Hanger shoulders.",
+        "moves": 120,
+        "flag_restriction": [ "HANGABLE_COAT" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "8 l",
+        "max_contains_weight": "2268 g",
+        "description": "Trouser bar.",
+        "moves": 140,
+        "flag_restriction": [ "HANGABLE_TROUSERS" ]
+      }
+    ],
+    "melee_damage": { "bash": 1 }
   }
 ]
