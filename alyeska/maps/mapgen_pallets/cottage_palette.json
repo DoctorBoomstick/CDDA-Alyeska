@@ -54,6 +54,13 @@
       "r": "f_fireplace",
       "s": "f_washstand",
       "v": "f_chimney"
+    },
+    "items": {
+      "n": [
+        { "item": "outfits_women_stored", "chance": 30, "repeat": [ 1, 2 ] },
+        { "item": "outfits_men_stored", "chance": 30, "repeat": [ 1, 2 ] },
+        { "item": "shoes_stored", "chance": 50, "repeat": [ 1, 2 ] }
+      ]
     }
   },
   {

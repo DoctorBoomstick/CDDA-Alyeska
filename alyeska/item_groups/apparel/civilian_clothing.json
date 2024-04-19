@@ -150,14 +150,14 @@
   {
     "id": "outfits_complete_women",
     "type": "item_group",
-    "subtype": "collection",
+    "subtype": "distribution",
     "//": "A selection of complete outfits suitable for a 1930 woman.",
     "items": [ { "group": "outfit_formal_women", "prob": 25 }, { "group": "outfit_outdoors_women", "prob": 50 } ]
   },
   {
     "id": "outfits_complete_men",
     "type": "item_group",
-    "subtype": "collection",
+    "subtype": "distribution",
     "//": "A selection of complete outfits suitable for a 1930 man.",
     "items": [ { "group": "outfit_formal_men", "prob": 25 }, { "group": "outfit_outdoors_men", "prob": 50 } ]
   },
@@ -192,7 +192,7 @@
   {
     "id": "outfits_women_stored",
     "type": "item_group",
-    "subtype": "collection",
+    "subtype": "distribution",
     "container-item": "coat_hanger",
     "on_overflow": "spill",
     "//": "Stored, mostly complete outfits for a 1930 woman, intended to spawn in wardrobes and the like. No shoes, underwear, or other items that can’t be hung on a clothes hanger.",
@@ -201,10 +201,22 @@
   {
     "id": "outfits_men_stored",
     "type": "item_group",
-    "subtype": "collection",
+    "subtype": "distribution",
     "container-item": "coat_hanger",
     "on_overflow": "spill",
     "//": "Stored, mostly complete outfits for a 1930 man, intended to spawn in wardrobes and the like. No shoes, underwear, or other items that can’t be hung on a clothes hanger.",
     "items": [ { "group": "outfit_formal_men_stored", "prob": 25 }, { "group": "outfit_outdoors_men_stored", "prob": 50 } ]
+  },
+  {
+    "id": "shoes_stored",
+    "type": "item_group",
+    "subtype": "distribution",
+    "//": "A collection of all shoes, outdoor, formal, etc. Gender doesn’t matter; this is for use in areas like wardrobes, mudrooms, and the like.",
+    "items": [
+      { "group": "shoes_formal_women", "prob": 25 },
+      { "group": "shoes_formal_men", "prob": 50 },
+      { "group": "shoes_outdoors_women", "prob": 25 },
+      { "group": "shoes_outdoors_men", "prob": 25 }
+    ]
   }
 ]
