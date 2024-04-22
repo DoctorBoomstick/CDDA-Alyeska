@@ -1,0 +1,26 @@
+[
+  {
+    "type": "palette",
+    "id": "general_store_palette_common",
+    "terrain": {
+      "#": "t_wall_wood",
+      "-": "t_floor_noroof",
+      "|": "t_floor",
+      "*": "t_floor",
+      "a": "t_floor",
+      "b": "t_floor",
+      "$": "t_railing",
+      ">": "t_wood_stairs_up",
+      "o": [ [ "t_door_c", 2 ], [ "t_door_locked", 6 ] ],
+      "i": [ [ "t_door_o", 1 ], [ "t_door_c", 2 ] ],
+      "t": [ [ "t_window_open", 1 ], [ "t_curtains", 6 ], [ "t_window_domestic", 8 ] ],
+      ".": "t_region_groundcover",
+      "!": "t_open_air"
+    },
+    "furniture": {
+      "*": [ [ "f_beaded_door", 2 ], [ "f_beaded_door_o", 1 ] ],
+      "a": "f_counter",
+      "b": [ [ "f_counter_gate_c", 2 ], [ "f_counter_gate_o", 1 ] ]
+    }
+  }
+]
