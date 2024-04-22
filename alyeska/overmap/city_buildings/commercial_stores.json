@@ -1,0 +1,8 @@
+[
+  {
+    "type": "city_building",
+    "id": "general_store01_normal",
+    "locations": [ "land" ],
+    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "general_store01g_normal_north", "locations": [ "land" ] } ]
+  }
+]

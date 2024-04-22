@@ -75,5 +75,54 @@
     "copy-from": "duster",
     "name": { "str": "duster" },
     "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "dress_shirt",
+    "type": "ARMOR",
+    "copy-from": "dress_shirt",
+    "name": { "str": "dress shirt" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "longshirt",
+    "type": "ARMOR",
+    "copy-from": "longshirt",
+    "name": { "str": "long-sleeved shirt" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "polo_shirt",
+    "type": "ARMOR",
+    "copy-from": "polo_shirt",
+    "name": { "str": "polo shirt" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "sweater",
+    "type": "ARMOR",
+    "copy-from": "sweater",
+    "name": { "str": "sweater" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "cloak_wool",
+    "type": "ARMOR",
+    "copy-from": "cloak_wool",
+    "name": { "str": "wool cloak" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "cloak_fur",
+    "type": "ARMOR",
+    "copy-from": "cloak_fur",
+    "name": { "str": "fur cloak" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
+  },
+  {
+    "id": "cloak",
+    "type": "ARMOR",
+    "copy-from": "cloak",
+    "name": { "str": "cloak" },
+    "extend": { "flags": [ "HANGABLE_COAT" ] }
   }
 ]

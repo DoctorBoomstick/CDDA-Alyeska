@@ -343,7 +343,7 @@
       "park_sigma": 80,
       "houses": { "cottage01_normal": 50 },
       "parks": { "park": 50 },
-      "shops": { "cs_market_small": 100 }
+      "shops": { "general_store01_normal": 100 }
     },
     "//": "Climate data sauced from https://www.climatestotravel.com/climate/united-states/unalaska#google_vignette",
     "weather": {

@@ -1,0 +1,24 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": [ "general_store01g_normal" ],
+    "copy-from": "generic_city_building_no_sidewalk",
+    "name": "general store",
+    "spawns": { "group": "GROUP_VANILLA", "population": [ 1, 4 ], "chance": 0 },
+    "extend": { "flags": [ "SOURCE_FOOD", "SOURCE_DRINK", "SOURCE_WEAPON", "SOURCE_MEDICINE" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "cottage01f2_normal" ],
+    "copy-from": "generic_city_house_no_sidewalk",
+    "name": "cottage loft",
+    "spawns": { "group": "GROUP_VANILLA", "population": [ 1, 4 ], "chance": 0 }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "cottage01r" ],
+    "copy-from": "generic_city_house_roof",
+    "name": "cottage roof",
+    "spawns": { "group": "GROUP_ROOF_ANIMAL", "population": [ 0, 3 ], "chance": 10 }
+  }
+]
