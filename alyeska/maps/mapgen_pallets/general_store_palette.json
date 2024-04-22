@@ -4,7 +4,7 @@
     "id": "general_store_palette_common",
     "terrain": {
       "#": "t_wall_wood",
-      "-": "t_floor_noroof",
+      "_": "t_floor_noroof",
       "|": "t_floor",
       "*": "t_floor",
       "a": "t_floor",
