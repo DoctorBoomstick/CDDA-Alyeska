@@ -9,18 +9,25 @@
       "*": "t_floor",
       "a": "t_floor",
       "b": "t_floor",
+      "c": "t_floor",
+      "d": "t_floor",
+      "e": "t_floor",
+      "f": "t_floor",
       "$": "t_railing",
       ">": "t_wood_stairs_up",
       "o": [ [ "t_door_c", 2 ], [ "t_door_locked", 6 ] ],
       "i": [ [ "t_door_o", 1 ], [ "t_door_c", 2 ] ],
-      "t": [ [ "t_window_open", 1 ], [ "t_curtains", 6 ], [ "t_window_domestic", 8 ] ],
-      ".": "t_region_groundcover",
-      "!": "t_open_air"
+      "t": [ [ "t_curtains", 6 ], [ "t_window_domestic", 8 ] ],
+      ".": "t_region_groundcover"
     },
     "furniture": {
       "*": [ [ "f_beaded_door", 2 ], [ "f_beaded_door_o", 1 ] ],
       "a": "f_counter",
-      "b": [ [ "f_counter_gate_c", 2 ], [ "f_counter_gate_o", 1 ] ]
+      "b": [ [ "f_counter_gate_c", 2 ], [ "f_counter_gate_o", 1 ] ],
+      "c": "f_chair",
+      "d": "f_desk",
+      "e": "f_filing_cabinet",
+      "f": [ [ "f_safe_o", 2 ], [ "f_safe_c", 2 ], [ "f_safe_l", 6 ] ]
     }
   }
 ]
