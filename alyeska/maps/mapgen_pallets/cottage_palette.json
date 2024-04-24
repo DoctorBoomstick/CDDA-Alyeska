@@ -2,8 +2,9 @@
   {
     "type": "palette",
     "id": "cottage_palette_common",
+    "parameters": { "wall_type": { "type": "ter_str_id", "default": { "distribution": [ [ "t_wall_log", 2 ], [ "t_wall_wood", 1 ] ] } } },
     "terrain": {
-      "#": "t_wall_log",
+      "#": { "param": "wall_type", "fallback": "t_wall_log" },
       "|": "t_floor",
       "a": "t_floor",
       "b": "t_floor",
