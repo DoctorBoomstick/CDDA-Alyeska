@@ -63,6 +63,44 @@
     ]
   },
   {
+    "id": "dresser_general_women",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "A general assortment of shirts, legware, undergarments, and apparel extras suitable for a woman’s dresser.",
+    "items": [
+      { "group": "underwear_general_women_stored" },
+      {
+        "distribution": [
+          { "group": "legwear_formal_women", "count": [ 1, 2 ], "prob": 50 },
+          { "group": "legwear_outdoors_women", "count": [ 1, 2 ], "prob": 50 }
+        ],
+        "prob": 75
+      },
+      { "group": "shirts_general_women", "count": [ 1, 2 ], "prob": 75 },
+      { "group": "gloves_unisex", "count": [ 1, 3 ], "prob": 50 },
+      { "group": "scarves_unisex", "count": [ 1, 2 ], "prob": 30 }
+    ]
+  },
+  {
+    "id": "dresser_general_men",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "A general assortment of shirts, legware, undergarments, and apparel extras suitable for a man's dresser.",
+    "items": [
+      { "group": "underwear_general_men_stored" },
+      {
+        "distribution": [
+          { "group": "legwear_formal_men", "count": [ 1, 2 ], "prob": 50 },
+          { "group": "legwear_outdoors_men", "count": [ 1, 2 ], "prob": 50 }
+        ],
+        "prob": 75
+      },
+      { "group": "shirts_general_men", "count": [ 1, 2 ], "prob": 75 },
+      { "group": "gloves_unisex", "count": [ 1, 3 ], "prob": 50 },
+      { "group": "scarves_unisex", "count": [ 1, 2 ], "prob": 30 }
+    ]
+  },
+  {
     "id": "outfit_formal_women_stored",
     "type": "item_group",
     "subtype": "collection",

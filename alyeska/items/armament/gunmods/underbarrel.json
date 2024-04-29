@@ -15,7 +15,7 @@
     "symbol": ":",
     "color": "brown",
     "location": "underbarrel",
-    "mod_targets": [ "mm_m1921a" ],
+    "mod_targets": [ "m1921a" ],
     "handling_modifier": 6,
     "min_skills": [ [ "weapon", 2 ] ]
   }

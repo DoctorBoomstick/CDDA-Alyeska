@@ -1,0 +1,12 @@
+[
+  {
+    "result": "3030lfn",
+    "type": "uncraft",
+    "activity_level": "MODERATE_EXERCISE",
+    "skill_used": "gun",
+    "difficulty": 4,
+    "time": "5 s",
+    "qualities": [ { "id": "PULL", "level": 1 } ],
+    "components": [ [ [ "lead", 2 ] ], [ [ "3030_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "gunpowder_rifle", 30 ] ] ]
+  }
+]

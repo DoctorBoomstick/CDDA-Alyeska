@@ -58,9 +58,13 @@
     },
     "items": {
       "n": [
-        { "item": "outfits_women_stored", "chance": 45, "repeat": [ 1, 2 ] },
-        { "item": "outfits_men_stored", "chance": 45, "repeat": [ 1, 2 ] },
+        { "item": "outfits_women_stored", "chance": 50, "repeat": [ 1, 2 ] },
+        { "item": "outfits_men_stored", "chance": 50, "repeat": [ 1, 2 ] },
         { "item": "shoes_stored", "chance": 50, "repeat": [ 1, 2 ] }
+      ],
+      "m": [
+        { "item": "dresser_general_women", "chance": 50, "repeat": [ 1, 2 ] },
+        { "item": "dresser_general_men", "chance": 50, "repeat": [ 1, 2 ] }
       ]
     }
   },

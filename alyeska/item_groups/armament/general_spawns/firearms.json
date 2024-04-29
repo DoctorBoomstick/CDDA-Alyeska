@@ -1,0 +1,29 @@
+[
+  {
+    "type": "item_group",
+    "id": "stored_civilian_handguns",
+    "//": "Unloaded handguns and revolvers for civilian safes and stashed locations. Also comes with packed ammunition.",
+    "//2": "The weight of guns is measured in 1/1000th of the amount preduced by 1930.",
+    "//3": "Production amounts for C-prefixed commercial 1911s and 1911A1s are sourced from https://sightm1911.com/1911Production.htm",
+    "//4": "According to Wikipedia, Colt produced 151700 Colt Model 1917 revolvers by the end of World War 1, but 96530 were still nocking about in inventory until 1940. We represent the difference, released for military surplus, in this weight.",
+    "items": [
+      { "group": "nested_1911_stored", "prob": 132 },
+      { "group": "nested_1911a1_stored", "prob": 24 },
+      { "group": "nested_c_1917_stored", "prob": 55 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "stored_civilian_rifles",
+    "//": "Unloaded rifles and carbines for civilian safes and stashed locations. Also comes with packed ammunition.",
+    "//2": "The weight of guns is measured in 1/1000th of the amount preduced by 1930.",
+    "//3": "One million Model 94 Winchesters were made by 1927, and 1.5 million were made by 1948. We calculate, assuming identical production per year, the amount by 1930.",
+    "items": [ { "group": "nested_win94", "prob": 1071 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "stored_civilian_firearms",
+    "//": "Unloaded guns of all types for civilian safes and stashed locations. Also comes with packed ammunition.",
+    "items": [ { "group": "stored_civilian_handguns" }, { "group": "stored_civilian_rifles" } ]
+  }
+]

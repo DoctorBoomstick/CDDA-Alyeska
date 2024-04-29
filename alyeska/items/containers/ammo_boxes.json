@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ammo_box_30_30",
+    "type": "GENERIC",
+    "copy-from": "ammo_box_2",
+    "name": { "str": "ammo carton" },
+    "description": "This is a small, rectangular container of brown corrugated cardboard for rifle cartridges, stamped with markings and trademark symbols.  This particular ammunition box possesses a large, yellow-coloured label, upon which, in red and black lettering, is printed the text:\n\n.30 Winchester\n\nSoft Point Lead Bullets\n\n<color_red>WINCHESTER TRADEMARK</color>\n\n20\n\nWINCHESTER MODEL 1894 SOFT POINT CARTRIDGES.\n\n<color_red>WINCHESTER MAKE.</color>\n\nWINCHESTER REPEATING ARMS CO., NEW HAVEN, CONN.  U.S.",
+    "volume": "165 ml",
+    "longest_side": "75 mm",
+    "//": "The size dimensions are completely provisional and just designed to fit 20 .30-30 rounds. The current modelled size is for a box of 4x5.5x7.5 cm with wall thicknesses of 0.25 cm.",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "max_contains_volume": "125 ml",
+        "max_contains_weight": "1600 g",
+        "max_item_length": "70 mm"
+      }
+    ]
+  },
+  {
+    "id": "ammo_box_45",
+    "type": "GENERIC",
+    "copy-from": "ammo_box_1",
+    "name": { "str": "ammo carton" },
+    "description": "This is a small, rectangular container of brown corrugated cardboard for pistol cartridges, stamped with markings and trademark symbols.",
+    "volume": "112 ml",
+    "longest_side": "70 mm",
+    "//": "The size dimensions are completely provisional and just designed to fit 20 .45 Auto rounds. The current modelled size is for a box of 4x4x7 cm with wall thicknesses of 0.25 cm.",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "max_contains_volume": "80 ml",
+        "max_contains_weight": "1600 g",
+        "max_item_length": "65 mm"
+      }
+    ]
+  }
+]

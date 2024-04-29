@@ -18,7 +18,7 @@
     "symbol": ":",
     "color": "brown",
     "location": "stock",
-    "mod_targets": [ "mm_m1921a" ],
+    "mod_targets": [ "m1921a" ],
     "handling_modifier": 8,
     "//": "The non-aligned nature of the stock inherently means it’s more uncomfortable to shoot with than a normal butt. Hence, we give it less overall handling to simulate this.",
     "melee_damage": { "bash": 4 },

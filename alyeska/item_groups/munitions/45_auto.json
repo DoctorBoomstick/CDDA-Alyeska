@@ -1,0 +1,43 @@
+[
+  {
+    "id": "box_full_45_jhp",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "One complete 20-round ammo carton of .45 Automatic JHP bullets.",
+    "container-item": "ammo_box_45",
+    "entries": [ { "item": "45_jhp", "charges": [ 20, 20 ] } ]
+  },
+  {
+    "id": "box_opened_45_jhp",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "one opened carton of 1 to 20 .45 Automatic JHP bullets.",
+    "container-item": "ammo_box_45",
+    "entries": [ { "item": "45_jhp", "charges": [ 1, 20 ] } ]
+  },
+  {
+    "id": "boxes_stored_45_jhp",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "This is a selection of complete or opened ammo cartons for .45-calibre ammunition, intended to spawn within private gun safes and other stored civilian sights. This should not be used in commercial locations to represent ammunition being soled, packed in crates, etc.",
+    "//2": "No empty boxes should spawn.",
+    "entries": [
+      { "group": "box_full_45_jhp" },
+      { "group": "box_full_45_jhp", "count": [ 0, 2 ], "prob": 75 },
+      { "group": "box_full_45_jhp", "count": [ 0, 2 ], "prob": 50 },
+      { "group": "box_open_45_jhp", "count": [ 0, 2 ], "prob": 50 },
+      { "group": "box_open_45_jhp", "count": [ 0, 2 ], "prob": 25 }
+    ]
+  },
+  {
+    "id": "boxes_commercial_45",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "This is a selection of complete, packaged ammunition cartons for .30-30-calibre bullets, intended for spawning within stocked commercial sights. No partial boxes should spawn; people don’t sell ammo boxes with one bullet in them.",
+    "entries": [
+      { "group": "box_full_45_jhp", "count": [ 0, 2 ] },
+      { "group": "box_full_45_jhp", "count": [ 0, 2 ], "prob": 50 },
+      { "group": "box_full_45_jhp", "count": [ 0, 2 ], "prob": 25 }
+    ]
+  }
+]

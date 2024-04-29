@@ -1,0 +1,45 @@
+[
+  {
+    "id": "win94",
+    "copy-from": "rifle_manual",
+    "looks_like": "1895sbl",
+    "type": "GUN",
+    "name": { "str": ".30-30 lever-action carbine" },
+    "description": "Finished in polished walnut with deep blued metal, an octagonal barrel, and an under-slung 6-round magazine tube, this hunting carbine is but a representative of many such trail arms produced for aspiring huntsmen.  Chambered for the .30 Winchester Centre-Fire cartridge, the firearm renders good work whether within the forests of the east coast, the southern planes, or the tundra of your current destitution.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "win94",
+        "name": { "str": "Winchester Model 94 repeater" },
+        "description": "A hunting repeater of New England persuasion, this quaint firearm is finished with a hard walnut buttstock and forend, strong lever-actuated action, and an octagonal-cut barrel bored for .30-30 Centre Fire.  The Browning lineage's brainchild and the first of Winchester’s products to embrace smokeless powder cartridges, many a pig has grown acquainted with this American icon’s bite.  Hopefully, it proves its muster in the Alaskan Islands as proficiently as within the east coast’s woodlands."
+      }
+    ],
+    "weight": "3084 g",
+    "volume": "3097 ml",
+    "longest_side": "96 cm",
+    "barrel_length": "510 mm",
+    "price": 3500,
+    "price_postapoc": 3500,
+    "to_hit": { "grip": "solid", "length": "long", "surface": "any", "balance": "uneven" },
+    "material": [ { "type": "steel", "portion": 3 }, { "type": "wood", "portion": 2 } ],
+    "color": "brown",
+    "symbol": "(",
+    "ammo": [ "3030" ],
+    "dispersion": 310,
+    "durability": 8,
+    "clip_size": 7,
+    "valid_mod_locations": [
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "mechanism", 2 ],
+      [ "sights mount", 1 ],
+      [ "stock mount", 1 ],
+      [ "stock accessory", 2 ],
+      [ "sling", 1 ]
+    ],
+    "flags": [ "RELOAD_ONE", "NO_TURRET" ],
+    "//": "A magazine tube for a .30 WCF gun with a 20-inch barrel can only hold 6 cartridges, but we’re assuming that, on the 7th bullet, the player's topping up the tube after chambering a round.",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "3030": 7 } } ],
+    "melee_damage": { "bash": 12 }
+  }
+]

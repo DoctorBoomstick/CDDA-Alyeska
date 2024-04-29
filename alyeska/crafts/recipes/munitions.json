@@ -1,0 +1,49 @@
+[
+  {
+    "result": "reloaded_3030",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 3 ], [ "mag_rifle", 4 ] ],
+    "charges": 1,
+    "reversible": true,
+    "using": [ [ "bullet_forming", 12 ], [ "ammo_bullet", 3 ] ],
+    "//": "3000 mg gunpowder rounded to 30 100 mg 'pieces'",
+    "//2": "No copper or steel components because the player is just crafting a simple lead-cast bullet.",
+    "//3": "Bullet weight is sighted at 10 g, so we use 2 pieces of 5 g lead.",
+    "proficiencies": [ { "proficiency": "prof_handloading" } ],
+    "components": [
+      [ [ "3030_casing", 1 ] ],
+      [ [ "lgrifle_primer", 1 ] ],
+      [ [ "gunpowder_rifle", 30 ], [ "gunpowder_large_rifle", 30 ] ],
+      [ [ "lead", 2 ] ]
+    ]
+  },
+  {
+    "result": "bp_3030",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_RIFLE",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "skills_required": [ "gun", 3 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_bullets", 3 ], [ "mag_rifle", 4 ] ],
+    "charges": 1,
+    "reversible": true,
+    "using": [ [ "bullet_forming", 12 ], [ "ammo_bullet", 4 ] ],
+    "//": "3000 mg gunpowder rounded to 30 100 mg 'pieces'",
+    "//2": "No copper or steel components because the player is just crafting a simple lead-cast bullet.",
+    "//3": "Bullet weight is sighted at 10 g, so we use 2 pieces of 5 g lead.",
+    "proficiencies": [ { "proficiency": "prof_handloading" } ],
+    "components": [ [ [ "3030_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ], [ [ "chem_black_powder", 30 ] ], [ [ "lead", 2 ] ] ]
+  }
+]

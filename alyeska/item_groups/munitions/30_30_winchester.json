@@ -1,0 +1,43 @@
+[
+  {
+    "id": "box_full_30_30_lfn",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "One complete 20-round ammo carton of .30-30 Winchester lead flat-nosed bullets.",
+    "container-item": "ammo_box_30_30",
+    "entries": [ { "item": "3030lfn", "charges": [ 20, 20 ] } ]
+  },
+  {
+    "id": "box_opened_30_30_lfn",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "one opened carton of 1 to 20 .30-30 Winchester lead flat-nosed bullets.",
+    "container-item": "ammo_box_30_30",
+    "entries": [ { "item": "3030lfn", "charges": [ 1, 20 ] } ]
+  },
+  {
+    "id": "boxes_stored_30_30",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "This is a selection of complete or opened ammo cartons for .30-30-calibre ammunition, intended to spawn within private gun safes and other stored civilian sights. This should not be used in commercial locations to represent ammunition being soled, packed in crates, etc.",
+    "//2": "No empty boxes should spawn.",
+    "entries": [
+      { "group": "box_full_30_30_lfn" },
+      { "group": "box_full_30_30_lfn", "count": [ 0, 2 ], "prob": 75 },
+      { "group": "box_full_30_30_lfn", "count": [ 0, 2 ], "prob": 50 },
+      { "group": "box_open_30_30_lfn", "count": [ 0, 2 ], "prob": 50 },
+      { "group": "box_open_30_30_lfn", "count": [ 0, 2 ], "prob": 25 }
+    ]
+  },
+  {
+    "id": "boxes_commercial_30_30",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "This is a selection of complete, packaged ammunition cartons for .30-30-calibre bullets, intended for spawning within stocked commercial sights. No partial boxes should spawn; people don’t sell ammo boxes with one bullet in them.",
+    "entries": [
+      { "group": "box_full_30_30_lfn", "count": [ 0, 2 ] },
+      { "group": "box_full_30_30_lfn", "count": [ 0, 2 ], "prob": 50 },
+      { "group": "box_full_30_30_lfn", "count": [ 0, 2 ], "prob": 25 }
+    ]
+  }
+]

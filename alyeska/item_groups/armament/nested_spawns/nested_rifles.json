@@ -1,0 +1,10 @@
+[
+  {
+    "id": "nested_win94_stored",
+    "type": "item_group",
+    "//": "This is a nested collection for an empty gun and related ammunition intended for use in gunsafes.",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "win94", "charges-min": 0, "charges-max": 0 }, { "group": "boxes_stored_30_30" } ]
+  }
+]

@@ -11,7 +11,8 @@
         "  "
       ],
       "terrain": { "g": "t_floor" },
-      "furniture": { "g": [ [ "f_glass_cabinet", 1 ], [ "f_gunsafe_o", 2 ], [ "f_gunsafe_c", 2 ], [ "f_gunsafe_ml", 6 ] ] }
+      "furniture": { "g": [ [ "f_glass_cabinet", 1 ], [ "f_gunsafe_o", 2 ], [ "f_gunsafe_c", 2 ], [ "f_gunsafe_ml", 6 ] ] },
+      "items": { "g": [ { "item": "stored_civilian_firearms", "chance": 50, "repeat": [ 0, 2 ] } ] }
     }
   },
   {

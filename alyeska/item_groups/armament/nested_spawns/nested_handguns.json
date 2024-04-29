@@ -1,0 +1,26 @@
+[
+  {
+    "id": "nested_1911_stored",
+    "type": "item_group",
+    "//": "This is a nested collection for an empty gun and related ammunition intended for use in gunsafes.",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "1911", "varient": "m1911_gov", "charges-min": 0, "charges-max": 0 }, { "group": "boxes_stored_45" } ]
+  },
+  {
+    "id": "nested_1911a1_stored",
+    "type": "item_group",
+    "//": "This is a nested collection for an empty gun and related ammunition intended for use in gunsafes.",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "1911", "varient": "m1911a1", "charges-min": 0, "charges-max": 0 }, { "group": "boxes_stored_45" } ]
+  },
+  {
+    "id": "nested_c_1917_stored",
+    "type": "item_group",
+    "//": "This is a nested collection for an empty gun and related ammunition intended for use in gunsafes.",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [ { "item": "c_m1917", "charges-min": 0, "charges-max": 0 }, { "group": "boxes_stored_45" } ]
+  }
+]
