@@ -18,7 +18,7 @@
     "//": "Unloaded rifles and carbines for civilian safes and stashed locations. Also comes with packed ammunition.",
     "//2": "The weight of guns is measured in 1/1000th of the amount preduced by 1930.",
     "//3": "One million Model 94 Winchesters were made by 1927, and 1.5 million were made by 1948. We calculate, assuming identical production per year, the amount by 1930.",
-    "items": [ { "group": "nested_win94", "prob": 1071 } ]
+    "items": [ { "group": "nested_win94_stored", "prob": 1071 } ]
   },
   {
     "type": "item_group",

@@ -16,7 +16,7 @@
     "entries": [ { "item": "45_jhp", "charges": [ 1, 20 ] } ]
   },
   {
-    "id": "boxes_stored_45_jhp",
+    "id": "boxes_stored_45",
     "type": "item_group",
     "subtype": "collection",
     "//": "This is a selection of complete or opened ammo cartons for .45-calibre ammunition, intended to spawn within private gun safes and other stored civilian sights. This should not be used in commercial locations to represent ammunition being soled, packed in crates, etc.",
@@ -25,8 +25,8 @@
       { "group": "box_full_45_jhp" },
       { "group": "box_full_45_jhp", "count": [ 0, 2 ], "prob": 75 },
       { "group": "box_full_45_jhp", "count": [ 0, 2 ], "prob": 50 },
-      { "group": "box_open_45_jhp", "count": [ 0, 2 ], "prob": 50 },
-      { "group": "box_open_45_jhp", "count": [ 0, 2 ], "prob": 25 }
+      { "group": "box_opened_45_jhp", "count": [ 0, 2 ], "prob": 50 },
+      { "group": "box_opened_45_jhp", "count": [ 0, 2 ], "prob": 25 }
     ]
   },
   {
