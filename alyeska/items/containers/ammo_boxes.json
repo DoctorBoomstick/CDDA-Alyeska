@@ -23,7 +23,7 @@
     "type": "GENERIC",
     "copy-from": "ammo_box_1",
     "name": { "str": "ammo carton" },
-    "description": "This is a small, rectangular container of brown corrugated cardboard for pistol cartridges, stamped with markings and trademark symbols.",
+    "description": "This is a small, rectangular container of corrugated cardboard for pistol cartridges, stamped with markings and trademark symbols.",
     "volume": "112 ml",
     "longest_side": "70 mm",
     "//": "The size dimensions are completely provisional and just designed to fit 20 .45 Auto rounds. The current modelled size is for a box of 4x4x7 cm with wall thicknesses of 0.25 cm.",
@@ -34,6 +34,35 @@
         "max_contains_volume": "80 ml",
         "max_contains_weight": "1600 g",
         "max_item_length": "65 mm"
+      }
+    ],
+    "variant_type": "generic",
+    "variants": [
+      {
+        "id": "box_rem_umc",
+        "name": { "str": "ammo carton" },
+        "description": "Printed in black across a pink and beige background is the label:\n\n20 Pistol Ball Cartridges, Cal .45\nModel of 1911\nFor Automatic Pistol, Cal .45, Model of 1911\n\nSmokeless Powder\nMuzzle Velocity 800±25 ft. per second\n\nManufactured by The Remington Arms Union Metallic Cartridge Company, Bridgeport, Conn.\nClass 47, Division 1, Drawing 5",
+        "color": "pink",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "box_winchester",
+        "name": { "str": "ammo carton" },
+        "description": "Printed in black across a green background is the label:\n\n20 Cartridges\nPistol Ball\nCaliber .45 M1911\n\nAmmunition Lot <number><number><number><number><number>\n\nWinchester Repeating Arms Co., Division of Western Cartridge Co.",
+        "expand_snippets": true,
+        "color": "green",
+        "weight": 10,
+        "append": true
+      },
+      {
+        "id": "box_fa",
+        "name": { "str": "ammo carton" },
+        "description": "Printed in black across a pink and beige background is the label:\n\n20 Cartridges, Pistol, Ball\nCaliber .45 M1911\nFor Automatic Pistol, Cal .45 M1911\n\nPowder, Pistol, No. 5, Army Lot <number><number><number>\nFrankford Arsenal\nAmmunition Lot No. <number><number><number>",
+        "expand_snippets": true,
+        "color": "pink",
+        "weight": 10,
+        "append": true
       }
     ]
   }

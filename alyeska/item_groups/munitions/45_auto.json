@@ -5,7 +5,7 @@
     "subtype": "collection",
     "//": "One complete 20-round ammo carton of .45 Automatic JHP bullets.",
     "container-item": "ammo_box_45",
-    "entries": [ { "item": "45_jhp", "charges": [ 20, 20 ] } ]
+    "entries": [ { "item": "45_jhp", "charges": 20 } ]
   },
   {
     "id": "box_opened_45_jhp",

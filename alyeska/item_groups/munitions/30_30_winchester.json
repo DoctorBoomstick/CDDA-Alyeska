@@ -5,7 +5,7 @@
     "subtype": "collection",
     "//": "One complete 20-round ammo carton of .30-30 Winchester lead flat-nosed bullets.",
     "container-item": "ammo_box_30_30",
-    "entries": [ { "item": "3030lfn", "charges": [ 20, 20 ] } ]
+    "entries": [ { "item": "3030lfn", "charges": 20 } ]
   },
   {
     "id": "box_opened_30_30_lfn",
