@@ -8,9 +8,16 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [ "cottage01f2_normal" ],
+    "id": [ "cottage01f2_normal", "cottage01f2_abandoned" ],
     "copy-from": "generic_city_house_no_sidewalk",
     "name": "cottage loft",
+    "spawns": { "group": "GROUP_VANILLA", "population": [ 1, 4 ], "chance": 0 }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "cottage01g_abandoned" ],
+    "copy-from": "generic_city_house_no_sidewalk",
+    "name": "derelict cottage",
     "spawns": { "group": "GROUP_VANILLA", "population": [ 1, 4 ], "chance": 0 }
   },
   {

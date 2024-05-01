@@ -134,5 +134,104 @@
       ],
       "palettes": [ "cottage_palette_common" ]
     }
+  },
+  {
+    "type": "mapgen",
+    "om_terrain": "cottage01g_abandoned",
+    "//": "Ground floor for cottage layout 01: significant abandonment and damage: It’s meant to look like a home that’s been sitting untended for years. Little remaining loot, the house should be largely uninhabitable, with signs of degradation: animal dens having formed, recked furniture, external detritus, etc.",
+    "weight": 250,
+    "method": "json",
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "..........##o##.........",
+        "..........#b|a#.........",
+        ".##tt######|||#.........",
+        ".#c||c######i######t###.",
+        ".#|||||||||#|#ddd#hsjh#.",
+        ".#|||||||||#|#|e|#|||h#.",
+        ".#||0||||||#|#|||#|||g#.",
+        ".#|||||||||#|##i##|||g#.",
+        ".t|||||||||i||||||||||#.",
+        ".#|||||||||#|##i##|ee|#.",
+        ".#|||||||||#|#b||#|ff|#.",
+        ".#c||||||||#|#|||#|ee|#.",
+        ".#rc|||||||#|#>$<#||||#.",
+        ".###########o##########.",
+        ".'....................'.",
+        ".'....................'.",
+        ".'....................'.",
+        ".'....................'.",
+        ".'.1..................'.",
+        ".'....................'.",
+        ".'....................'.",
+        ".'....................'.",
+        ".'....................'.",
+        ".''''''''''''''''''''''."
+      ],
+      "palettes": [ "cottage_palette_abandoned" ],
+      "place_nested": [
+        { "chunks": [ [ "null", 25 ], [ "cottage_gun_safe2x2", 25 ], [ "cottage_bookcase_corner2x2", 50 ] ], "x": 9, "y": 4 }
+      ],
+      "nested": {
+        "0": {
+          "chunks": [
+            [ "cottage_livingroom_centre5x5_1", 100 ],
+            [ "cottage_livingroom_centre5x5_2", 100 ],
+            [ "cottage_livingroom_centre5x5_3", 100 ],
+            [ "cottage_livingroom_centre5x5_4", 100 ],
+            [ "cottage_livingroom_centre5x5_5", 100 ],
+            [ "cottage_livingroom_centre5x5_6", 100 ]
+          ]
+        },
+        "1": {
+          "chunks": [ [ "outhouse_3x3_1", 200 ], [ "outhouse_5x5_1", 100 ], [ "outhouse_5x5_2", 100 ], [ "outhouse_5x5_3", 100 ] ]
+        }
+      }
+    }
+  },
+  {
+    "type": "mapgen",
+    "om_terrain": "cottage01f2_abandoned",
+    "//": "2nd floor for cottage layout 01: significant abandonment and damage: It’s meant to look like a home that’s been sitting untended for years. Little remaining loot, the house should be largely uninhabitable, with signs of degradation: animal dens having formed, recked furniture, external detritus, etc.",
+    "weight": 250,
+    "method": "json",
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "          +++++         ",
+        "          +++++         ",
+        " ++++++++++++++         ",
+        " ++++++++++++++++++++++ ",
+        " ++++++++++++++++++++++ ",
+        " +++++################+ ",
+        " +++++#ddn||||#|#nmmn#+ ",
+        " +++++tdp^^^||i|i||||#+ ",
+        " +++++#n|^^^||#|#|^^|#+ ",
+        " +++++#m|^^^||#|#|^^|t+ ",
+        " +++++#m|||||##i##|||#+ ",
+        " +++++t||qq||#|||#l|l#+ ",
+        " +v+++#|bqqb|#<$!#kbk#+ ",
+        " +++++#############t##+ ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "cottage_palette_abandoned" ],
+      "place_nested": [
+        {
+          "chunks": [ [ "null", 25 ], [ "cottage_gun_safe2x2", 25 ], [ "cottage_washstand2x2", 50 ], [ "cottage_bookcase_sbs2x2", 50 ] ],
+          "x": 12,
+          "y": 6
+        }
+      ]
+    }
   }
 ]

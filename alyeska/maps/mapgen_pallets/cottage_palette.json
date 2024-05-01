@@ -2,9 +2,18 @@
   {
     "type": "palette",
     "id": "cottage_palette_common",
-    "parameters": { "wall_type": { "type": "ter_str_id", "default": { "distribution": [ [ "t_wall_log", 2 ], [ "t_wall_wood", 1 ] ] } } },
+    "parameters": {
+      "wall_type": { "type": "ter_str_id", "default": { "distribution": [ [ "t_wall_log", 2 ], [ "t_wall_wood", 1 ] ] } },
+      "carpet_type": {
+        "type": "ter_str_id",
+        "default": {
+          "distribution": [ [ "t_carpet_red", 1 ], [ "t_carpet_green", 1 ], [ "t_carpet_purple", 1 ], [ "t_carpet_yellow", 1 ] ]
+        }
+      }
+    },
     "terrain": {
       "#": { "param": "wall_type", "fallback": "t_wall_log" },
+      "^": { "param": "carpet_type", "fallback": "t_carpet_red" },
       "|": "t_floor",
       "a": "t_floor",
       "b": "t_floor",
@@ -23,14 +32,13 @@
       "q": "t_floor",
       "r": "t_floor",
       "s": "t_floor",
-      "^": "t_carpet_red",
       "$": "t_railing",
       "<": "t_wood_stairs_down",
       ">": "t_wood_stairs_up",
       "o": [ [ "t_door_c", 2 ], [ "t_door_locked", 6 ] ],
       "i": [ [ "t_door_o", 1 ], [ "t_door_c", 2 ] ],
       "t": [ [ "t_window_open", 1 ], [ "t_curtains", 6 ], [ "t_window_domestic", 8 ] ],
-      ".": [ [ "t_region_groundcover", 4 ], [ "t_region_groundcover_forest", 2 ] ],
+      ".": "t_region_groundcover",
       "+": "t_shingle_flat_roof",
       "v": "t_shingle_flat_roof",
       "'": "t_splitrail_fence",
@@ -66,6 +74,112 @@
         { "item": "dresser_general_women", "chance": 50, "repeat": [ 1, 2 ] },
         { "item": "dresser_general_men", "chance": 50, "repeat": [ 1, 2 ] }
       ]
+    }
+  },
+  {
+    "type": "palette",
+    "id": "cottage_palette_abandoned",
+    "parameters": {
+      "wall_type": { "type": "ter_str_id", "default": { "distribution": [ [ "t_wall_log", 2 ], [ "t_wall_wood", 1 ] ] } },
+      "window_type": {
+        "type": "ter_str_id",
+        "default": {
+          "distribution": [
+            [ "t_window_domestic", 1 ],
+            [ "t_window_no_curtains", 1 ],
+            [ "t_window_no_curtains_open", 1 ],
+            [ "t_window_taped", 5 ],
+            [ "t_window_no_curtains_taped", 4 ],
+            [ "t_window_domestic_taped", 4 ],
+            [ "t_window_empty", 7 ],
+            [ "t_window_frame", 7 ],
+            [ "t_window_boarded", 7 ],
+            [ "t_window_boarded_noglass", 5 ],
+            [ "t_window_reinforced", 5 ],
+            [ "t_window_reinforced_noglass", 5 ]
+          ]
+        }
+      },
+      "carpet_type": {
+        "type": "ter_str_id",
+        "default": {
+          "distribution": [ [ "t_carpet_red", 1 ], [ "t_carpet_green", 1 ], [ "t_carpet_purple", 1 ], [ "t_carpet_yellow", 1 ] ]
+        }
+      }
+    },
+    "terrain": {
+      "#": { "param": "wall_type", "fallback": "t_wall_log" },
+      "t": { "param": "window_type", "fallback": "t_window_boarded" },
+      "^": { "param": "carpet_type", "fallback": "t_carpet_red" },
+      "|": "t_floor",
+      "a": "t_floor",
+      "b": "t_floor",
+      "c": "t_floor",
+      "d": "t_floor",
+      "e": "t_floor",
+      "f": "t_floor",
+      "g": "t_floor",
+      "h": "t_floor",
+      "j": "t_floor",
+      "k": "t_floor",
+      "l": "t_floor",
+      "m": "t_floor",
+      "n": "t_floor",
+      "p": "t_floor",
+      "q": "t_floor",
+      "r": "t_floor",
+      "s": "t_floor",
+      "$": "t_railing",
+      "<": "t_wood_stairs_down",
+      ">": [ [ "t_wood_stairs_up", 1 ], [ "t_wood_stairs_up_broken", 1 ] ],
+      "o": [ [ "t_door_frame", 1 ], [ "t_door_o", 2 ], [ "t_door_c", 3 ], [ "t_door_b", 3 ], [ "t_door_locked", 3 ] ],
+      "i": [ [ "t_door_frame", 1 ], [ "t_door_o", 2 ], [ "t_door_c", 3 ], [ "t_door_b", 3 ] ],
+      ".": "t_region_groundcover",
+      "+": "t_shingle_flat_roof",
+      "v": "t_shingle_flat_roof",
+      "'": "t_splitrail_fence",
+      "!": "t_open_air"
+    },
+    "furniture": {
+      "a": "f_rack_coat",
+      "b": "f_table",
+      "c": "f_bookcase",
+      "d": "f_desk",
+      "e": "f_chair",
+      "f": "f_table",
+      "g": "f_rack_wood",
+      "h": "f_cupboard",
+      "j": "f_woodstove",
+      "k": "f_bunkbed",
+      "l": "f_chest",
+      "m": "f_dresser",
+      "n": "f_wardrobe",
+      "p": "f_armchair",
+      "q": "f_bed",
+      "r": "f_fireplace",
+      "s": "f_washstand",
+      "v": "f_chimney"
+    },
+    "items": {
+      "n": [
+        { "item": "outfits_women_stored", "chance": 15, "repeat": [ 1, 2 ] },
+        { "item": "outfits_men_stored", "chance": 15, "repeat": [ 1, 2 ] },
+        { "item": "shoes_stored", "chance": 10, "repeat": [ 1, 2 ] }
+      ],
+      "m": [
+        { "item": "dresser_general_women", "chance": 15, "repeat": [ 1, 2 ] },
+        { "item": "dresser_general_men", "chance": 15, "repeat": [ 1, 2 ] }
+      ]
+    },
+    "nested": {
+      "o": { "chunks": [ [ "destroyed_door_nested", 50 ], [ "null", 50 ] ] },
+      "i": { "chunks": [ [ "destroyed_door_nested", 50 ], [ "null", 50 ] ] },
+      "a": { "chunks": [ [ "1x1_bash", 10 ], [ "null", 90 ] ] },
+      "b": { "chunks": [ [ "1x1_bash", 10 ], [ "null", 90 ] ] },
+      "c": { "chunks": [ [ "1x1_bash", 30 ], [ "null", 70 ] ] },
+      "d": { "chunks": [ [ "1x1_bash", 30 ], [ "null", 70 ] ] },
+      "e": { "chunks": [ [ "1x1_bash", 30 ], [ "null", 70 ] ] },
+      "f": { "chunks": [ [ "1x1_bash", 10 ], [ "null", 90 ] ] }
     }
   },
   {
