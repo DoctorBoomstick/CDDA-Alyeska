@@ -91,8 +91,6 @@
             [ "t_window_taped", 5 ],
             [ "t_window_no_curtains_taped", 4 ],
             [ "t_window_domestic_taped", 4 ],
-            [ "t_window_empty", 7 ],
-            [ "t_window_frame", 7 ],
             [ "t_window_boarded", 7 ],
             [ "t_window_boarded_noglass", 5 ],
             [ "t_window_reinforced", 5 ],
@@ -141,11 +139,12 @@
       "!": "t_open_air"
     },
     "furniture": {
+      ".": [ [ "f_region_weed", 1 ], [ "null", 10 ] ],
       "a": "f_rack_coat",
       "b": "f_table",
       "c": "f_bookcase",
       "d": "f_desk",
-      "e": "f_chair",
+      "e": [ [ "f_chair", 1 ], [ "f_chair_flipped", 1 ] ],
       "f": "f_table",
       "g": "f_rack_wood",
       "h": "f_cupboard",
@@ -174,12 +173,23 @@
     "nested": {
       "o": { "chunks": [ [ "destroyed_door_nested", 50 ], [ "null", 50 ] ] },
       "i": { "chunks": [ [ "destroyed_door_nested", 50 ], [ "null", 50 ] ] },
+      "t": { "chunks": [ [ "1x1_bash", 75 ], [ "null", 25 ] ] },
       "a": { "chunks": [ [ "1x1_bash", 10 ], [ "null", 90 ] ] },
       "b": { "chunks": [ [ "1x1_bash", 10 ], [ "null", 90 ] ] },
       "c": { "chunks": [ [ "1x1_bash", 30 ], [ "null", 70 ] ] },
       "d": { "chunks": [ [ "1x1_bash", 30 ], [ "null", 70 ] ] },
       "e": { "chunks": [ [ "1x1_bash", 30 ], [ "null", 70 ] ] },
-      "f": { "chunks": [ [ "1x1_bash", 10 ], [ "null", 90 ] ] }
+      "f": { "chunks": [ [ "1x1_bash", 10 ], [ "null", 90 ] ] },
+      "g": { "chunks": [ [ "1x1_bash", 25 ], [ "null", 75 ] ] },
+      "h": { "chunks": [ [ "1x1_bash", 25 ], [ "null", 75 ] ] },
+      "j": { "chunks": [ [ "1x1_bash", 25 ], [ "null", 75 ] ] },
+      "k": { "chunks": [ [ "1x1_bash", 25 ], [ "null", 75 ] ] },
+      "l": { "chunks": [ [ "1x1_bash", 25 ], [ "null", 75 ] ] },
+      "m": { "chunks": [ [ "1x1_bash", 25 ], [ "null", 75 ] ] },
+      "n": { "chunks": [ [ "1x1_bash", 25 ], [ "null", 75 ] ] },
+      "p": { "chunks": [ [ "1x1_bash", 25 ], [ "null", 75 ] ] },
+      "q": { "chunks": [ [ "1x1_bash", 25 ], [ "null", 75 ] ] },
+      "s": { "chunks": [ [ "1x1_bash", 25 ], [ "null", 75 ] ] }
     }
   },
   {

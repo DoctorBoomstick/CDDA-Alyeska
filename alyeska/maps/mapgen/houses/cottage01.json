@@ -171,7 +171,13 @@
       ],
       "palettes": [ "cottage_palette_abandoned" ],
       "place_nested": [
-        { "chunks": [ [ "null", 25 ], [ "cottage_gun_safe2x2", 25 ], [ "cottage_bookcase_corner2x2", 50 ] ], "x": 9, "y": 4 }
+        {
+          "chunks": [ [ "null", 25 ], [ "cottage_abandoned_gun_safe2x2", 25 ], [ "cottage_bookcase_corner2x2", 50 ] ],
+          "x": 9,
+          "y": 4
+        },
+        { "chunks": [ [ "null", 50 ], [ "3x3_bash", 50 ] ], "x": [ 1, 22 ], "y": [ 3, 13 ] },
+        { "chunks": [ [ "null", 75 ], [ "3x3_bash", 25 ] ], "x": [ 1, 22 ], "y": [ 3, 13 ] }
       ],
       "nested": {
         "0": {

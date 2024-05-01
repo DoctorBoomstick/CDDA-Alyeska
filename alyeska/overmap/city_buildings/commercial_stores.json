@@ -7,6 +7,7 @@
       { "point": [ 0, 0, 0 ], "overmap": "general_store01g_normal_north", "locations": [ "land" ] },
       { "point": [ 0, 0, 1 ], "overmap": "general_store01f2_normal_north", "locations": [ "land" ] },
       { "point": [ 0, 0, 2 ], "overmap": "general_store01r_north", "locations": [ "land" ] }
-    ]
+    ],
+    "city_sizes": [ 6, -1 ]
   }
 ]

@@ -1,0 +1,33 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "3x3_bash",
+    "object": { "mapgensize": [ 3, 3 ], "set": [ { "square": "bash", "x": 0, "y": 0, "x2": 2, "y2": 2 } ] }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "cottage_abandoned_gun_safe2x2",
+    "//": "One gun-containing article of furniture positioned on the north-eastern tile.",
+    "//2": "High chances for the gun safe to be rusted closed.",
+    "object": {
+      "mapgensize": [ 2, 2 ],
+      "rows": [
+        " g",
+        "  "
+      ],
+      "terrain": { "g": "t_floor" },
+      "furniture": {
+        "g": [
+          [ "f_glass_cabinet", 1 ],
+          [ "f_gunsafe_o", 2 ],
+          [ "f_gunsafe_c", 2 ],
+          [ "f_gunsafe_ml", 6 ],
+          [ "f_gunsafe_rusted", 18 ]
+        ]
+      },
+      "items": { "g": [ { "item": "stored_civilian_firearms", "chance": 50, "repeat": [ 1, 2 ] } ] }
+    }
+  }
+]
