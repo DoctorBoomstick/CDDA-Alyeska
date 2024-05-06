@@ -139,7 +139,7 @@
       "!": "t_open_air"
     },
     "furniture": {
-      ".": [ [ "f_region_weed", 1 ], [ "null", 10 ] ],
+      ".": [ [ "f_region_weed", 1 ], [ "f_null", 10 ] ],
       "a": "f_rack_coat",
       "b": "f_table",
       "c": "f_bookcase",
