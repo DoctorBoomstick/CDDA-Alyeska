@@ -92,7 +92,7 @@
       ]
     },
     "overmap_ocean_settings": {
-      "noise_threshold_ocean": 0.05,
+      "noise_threshold_ocean": 0.1,
       "ocean_size_min": 100,
       "ocean_depth": -9,
       "ocean_start_north": 1,
@@ -148,6 +148,8 @@
           "cave",
           "derelict_property",
           "desolatebarn",
+          "forest_trail",
+          "forest_trail_intersection",
           "forest_thick",
           "island_forest",
           "island_forest_thick",
@@ -323,7 +325,7 @@
       },
       "road": { "chance": 75, "extras": { "mx_roadworks": 1000, "mx_mayhem": 500, "mx_casings": 1000 } },
       "bridgehead_ground": { "chance": 5, "extras": { "mx_minefield": 100 } },
-      "city_center": { "chance": 20, "extras": { "mx_fungal_zone": 100 } },
+      "park": { "chance": 20, "extras": { "mx_fungal_zone": 100 } },
       "road_nesw_manhole": { "chance": 20, "extras": { "mx_city_trap": 1, "mx_laststand": 1 } },
       "build": { "chance": 90, "extras": { "mx_bugout": 20, "mx_point_burned_ground": 5, "mx_casings": 30, "mx_looters": 10 } },
       "marloss": { "chance": 20, "extras": { "mx_marloss_pilgrimage": 100 } },
@@ -337,12 +339,12 @@
       "agricultural": { "chance": 38, "extras": { "mx_point_burned_ground": 500, "mx_point_dead_vegetation": 500, "mx_casings": 200 } }
     },
     "city": {
-      "shop_radius": 5,
+      "shop_radius": 30,
       "shop_sigma": 50,
-      "park_radius": 5,
+      "park_radius": 20,
       "park_sigma": 80,
       "houses": { "cottage01_normal": 15, "cottage01_abandoned": 150 },
-      "parks": { "cottage01_abandoned": 50 },
+      "parks": { "park": 50 },
       "shops": { "general_store01_normal": 20 }
     },
     "//": "Climate data sauced from https://www.climatestotravel.com/climate/united-states/unalaska#google_vignette",

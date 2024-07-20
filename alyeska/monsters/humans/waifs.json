@@ -29,7 +29,7 @@
     "vision_night": 3,
     "stomach_size": 700,
     "path_settings": { "max_dist": 45, "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
-    "special_attacks": [ { "id": "wooden_club" }, [ "BROWSE", 100 ], [ "EAT_FOOD", 100 ] ],
+    "special_attacks": [ { "id": "feral_weapon_axe" } ],
     "death_drops": "feral_humans_death_drops_pipe",
     "fear_triggers": [ "FRIEND_DIED", "HURT" ],
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_CLOSE", "PLAYER_WEAK" ],

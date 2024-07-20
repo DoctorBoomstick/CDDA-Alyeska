@@ -131,7 +131,7 @@
     "id": "f_gunsafe_rusted",
     "looks_like": "f_gunsafe_ml",
     "name": "rusted safe",
-    "description": "Bulging fingers of reddish-brown rust crisscross this stout container’s metal skin, coating it in a layer visually reminiscent of burst capillaries and decaying worms.  Even had the safe not been stoutly locked years ago, the extensive oxidation has rendered the door long since inoperable through conventional means.  That being said, the steel’s integrity is almost certainly not what it used to be in its youth.",
+    "description": "Bulging fingers of reddish-brown rust crisscross this stout container’s metal skin, coating it in a layer reminiscent of burst capillaries and decaying worms.  Even had the safe not been locked years ago, the extensive oxidation has rendered the door long since inoperable through conventional means.  That being said, the steel’s integrity is almost certainly not what it used to be in its youth.",
     "color": "light_gray",
     "symbol": "X",
     "move_cost_mod": -1,
