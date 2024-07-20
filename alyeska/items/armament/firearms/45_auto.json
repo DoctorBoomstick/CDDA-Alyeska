@@ -41,7 +41,7 @@
     "variant_type": "gun",
     "variants": [
       {
-        "id": "m1917",
+        "id": "c_m1917",
         "name": { "str": "Colt M1917 revolver" },
         "description": "A weighty, revolving pistol with a swing-out cylinder, crescent front sight, and brush-blued finish, this double-action handgun is chambered for the .45 Automatic Colt Cartridge and possesses a lanyard ring.  Manufactured by Colt, under request from the US government, to free up 1911 automatics for dispatch to the war in Europe, this particular gun possesses a machined shoulder in each of the chambers to retain the rimless .45 Auto cartridge without the need for moon clips."
       }
@@ -59,7 +59,7 @@
     "symbol": "(",
     "color": "light_gray",
     "ammo": [ "45" ],
-    "dispersion": 320,
+    "dispersion": 250,
     "durability": 9,
     "blackpowder_tolerance": 56,
     "clip_size": 6,

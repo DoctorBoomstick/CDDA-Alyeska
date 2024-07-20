@@ -221,6 +221,7 @@
     "subtype": "collection",
     "//": "A complete woman’s outfit for formal events and gatherings.",
     "items": [
+      { "group": "underwear_general_women" },
       { "group": "shoes_formal_women" },
       { "group": "legwear_formal_women" },
       { "group": "shirts_general_women" },
@@ -233,6 +234,7 @@
     "subtype": "collection",
     "//": "A complete man's outfit for formal events and gatherings.",
     "items": [
+      { "group": "underwear_general_men" },
       { "group": "shoes_formal_men" },
       { "group": "legwear_formal_men" },
       { "group": "shirts_general_men" },
@@ -245,6 +247,7 @@
     "subtype": "collection",
     "//": "A complete woman’s outfit for outdoor activities.",
     "items": [
+      { "group": "underwear_general_women" },
       { "group": "shoes_outdoors_unisex" },
       { "group": "legwear_outdoors_women" },
       { "group": "shirts_general_women" },
@@ -257,6 +260,7 @@
     "subtype": "collection",
     "//": "A complete man's outfit for outdoor activities.",
     "items": [
+      { "group": "underwear_general_men" },
       { "group": "shoes_outdoors_unisex" },
       { "group": "legwear_outdoors_men" },
       { "group": "shirts_general_men" },
@@ -276,126 +280,5 @@
     "subtype": "distribution",
     "//": "A selection of complete outfits suitable for a 1930 man.",
     "items": [ { "group": "outfit_formal_men", "prob": 25 }, { "group": "outfit_outdoors_men", "prob": 50 } ]
-  },
-  {
-    "id": "underwear_general_women",
-    "type": "item_group",
-    "//": "A collection of top and bottom undergarments, as well as socks, for a 1930s woman, with optional extras like arm warmers.",
-    "subtype": "collection",
-    "entries": [
-      { "distribution": [ { "item": "socks", "prob": 50 }, { "item": "socks_wool", "prob": 50 } ] },
-      { "distribution": [ { "item": "panties", "prob": 60 }, { "item": "long_underpants", "prob": 40 } ] },
-      {
-        "distribution": [
-          { "item": "bra", "prob": 75 },
-          { "item": "long_undertop", "prob": 50 },
-          { "item": "undershirt", "prob": 50 },
-          { "item": "long_undertop_sleeveless", "prob": 35 },
-          { "item": "corset", "prob": 30 },
-          { "item": "corset_waist", "prob": 30 }
-        ]
-      },
-      { "item": "arm_warmers", "prob": 30 },
-      {
-        "distribution": [ { "item": "leg_warmers", "prob": 25 }, { "item": "leg_warmers_f", "prob": 25 } ],
-        "prob": 25
-      },
-      { "item": "gloves_liner", "prob": 15 }
-    ]
-  },
-  {
-    "id": "underwear_general_men_stored",
-    "type": "item_group",
-    "//": "A collection of top and bottom undergarments, as well as socks, for a 1930s man, with optional extras like arm warmers.",
-    "//2": "Set up to spawn logical multiples of common items, such as socks, for use in drawers and other storage spaces.",
-    "subtype": "collection",
-    "entries": [
-      { "distribution": [ { "item": "socks", "prob": 50 }, { "item": "socks_wool", "prob": 50 } ] },
-      { "distribution": [ { "item": "boxer_shorts", "prob": 25 }, { "item": "long_underpants", "prob": 75 } ] },
-      {
-        "distribution": [
-          { "item": "long_undertop", "prob": 50 },
-          { "item": "undershirt", "prob": 50 },
-          { "item": "long_undertop_sleeveless", "prob": 35 },
-          { "item": "tank_top", "prob": 20 }
-        ]
-      },
-      { "item": "arm_warmers", "prob": 30 },
-      {
-        "distribution": [ { "item": "leg_warmers", "prob": 25 }, { "item": "leg_warmers_f", "prob": 25 } ],
-        "prob": 25
-      },
-      { "item": "gloves_liner", "prob": 15 }
-    ]
-  },
-  {
-    "id": "outfit_formal_women_stored",
-    "type": "item_group",
-    "subtype": "collection",
-    "//": "Stored, mostly complete outfits for a 1930 woman, intended to spawn in wardrobes and the like. No shoes, underwear, or other items that can’t be hung on a clothes hanger.",
-    "//2": "Set up to spawn logical multiples of common items, such as socks, for use in drawers and other storage spaces.",
-    "items": [
-      { "group": "legwear_formal_women" },
-      { "group": "shirts_general_women" },
-      { "group": "coats_formal_unisex", "prob": 50 }
-    ]
-  },
-  {
-    "id": "outfit_formal_men_stored",
-    "type": "item_group",
-    "subtype": "collection",
-    "//": "Stored, mostly complete outfits for a 1930 man, intended to spawn in wardrobes and the like. No shoes, underwear, or other items that can’t be hung on a clothes hanger.",
-    "items": [ { "group": "legwear_formal_men" }, { "group": "shirts_general_men" }, { "group": "coats_formal_unisex", "prob": 50 } ]
-  },
-  {
-    "id": "outfit_outdoors_women_stored",
-    "type": "item_group",
-    "subtype": "collection",
-    "//": "Stored, mostly complete outfits for a 1930 woman, intended to spawn in wardrobes and the like. No shoes, underwear, or other items that can’t be hung on a clothes hanger.",
-    "items": [
-      { "group": "legwear_outdoors_women" },
-      { "group": "shirts_general_women" },
-      { "group": "coats_outdoors_unisex", "prob": 50 }
-    ]
-  },
-  {
-    "id": "outfit_outdoors_men_stored",
-    "type": "item_group",
-    "subtype": "collection",
-    "//": "Stored, mostly complete outfits for a 1930 man, intended to spawn in wardrobes and the like. No shoes, underwear, or other items that can’t be hung on a clothes hanger.",
-    "items": [
-      { "group": "legwear_outdoors_men" },
-      { "group": "shirts_general_men" },
-      { "group": "coats_outdoors_unisex", "prob": 50 }
-    ]
-  },
-  {
-    "id": "outfits_women_stored",
-    "type": "item_group",
-    "subtype": "distribution",
-    "container-item": "coat_hanger",
-    "on_overflow": "spill",
-    "//": "Stored, mostly complete outfits for a 1930 woman, intended to spawn in wardrobes and the like. No shoes, underwear, or other items that can’t be hung on a clothes hanger.",
-    "items": [ { "group": "outfit_formal_women_stored", "prob": 25 }, { "group": "outfit_outdoors_women_stored", "prob": 50 } ]
-  },
-  {
-    "id": "outfits_men_stored",
-    "type": "item_group",
-    "subtype": "distribution",
-    "container-item": "coat_hanger",
-    "on_overflow": "spill",
-    "//": "Stored, mostly complete outfits for a 1930 man, intended to spawn in wardrobes and the like. No shoes, underwear, or other items that can’t be hung on a clothes hanger.",
-    "items": [ { "group": "outfit_formal_men_stored", "prob": 25 }, { "group": "outfit_outdoors_men_stored", "prob": 50 } ]
-  },
-  {
-    "id": "shoes_stored",
-    "type": "item_group",
-    "subtype": "distribution",
-    "//": "A collection of all shoes, outdoor, formal, etc. Gender doesn’t matter; this is for use in areas like wardrobes, mudrooms, and the like.",
-    "items": [
-      { "group": "shoes_formal_women", "prob": 25 },
-      { "group": "shoes_formal_men", "prob": 25 },
-      { "group": "shoes_outdoors_unisex", "prob": 75 }
-    ]
   }
 ]

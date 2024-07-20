@@ -1,0 +1,19 @@
+[
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "wooden_club",
+    "cooldown": 1,
+    "move_cost": 80,
+    "accuracy": 5,
+    "//": "We add the enemy’s melee skill plus the weapon’s to hit value, so 3+2=5",
+    "damage_max_instance": [ { "damage_type": "bash", "amount": 12 } ],
+    "condition": { "test_eoc": "is_disarmed" },
+    "hit_dmg_u": "%1$s smashes their club against your %2$s!",
+    "hit_dmg_npc": "%1$s smashes their club against <npcname>'s %2$s!",
+    "miss_msg_u": "%1$s's club reels past you, but you evade!",
+    "miss_msg_npc": "%1$s's club reels past <npcname>, but they evade!",
+    "no_dmg_msg_u": "%1$s's whiled swing towards your %2$s is deadened by your armour.",
+    "no_dmg_msg_npc": "%1$s's whiled swing towards <npcname>'s %2$s is deadened by their armour."
+  }
+]
