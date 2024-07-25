@@ -342,7 +342,7 @@
       "park_radius": 20,
       "park_sigma": 80,
       "houses": { "cottage01_normal": 15, "cottage01_abandoned": 150 },
-      "parks": { "park": 50 },
+      "parks": { "cottage01_abandoned": 50 },
       "shops": { "general_store01_normal": 20 }
     },
     "//": "Climate data sauced from https://www.climatestotravel.com/climate/united-states/unalaska#google_vignette",
