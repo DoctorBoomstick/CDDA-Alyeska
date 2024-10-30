@@ -12,5 +12,12 @@
     "info": "Sets the longitude used for sunrise/sunset times.  Based off the coordinates for Unalaska island.",
     "stype": "float",
     "value": -166.53
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "GENERIC_SCENARIO_ID",
+    "info": "The scenario selected by default in the character creator menu.",
+    "stype": "string_input",
+    "value": "wilderness"
   }
 ]

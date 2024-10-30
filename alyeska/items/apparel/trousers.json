@@ -4,7 +4,7 @@
     "type": "ARMOR",
     "looks_like": "breeches",
     "name": { "str": "oilskin overalls", "str_pl": "pairs of oilskin overalls" },
-    "description": "Designed for the express purpose of keeping one’s person free of liquid intrusion, this pair of high-waisted pants is crudely made from a heavy canvas material impregnated with oil.  Coarse to the touch, the legs possess securing straps to be tied about boots, while a set of braces loops across the shoulders for maximal security of one’s breeches.",
+    "description": "Designed for the express purpose of keeping one’s person free of liquid intrusion, this pair of high-waisted pants is crudely made from a heavy canvas material impregnated with oil.  Coarse to the touch, the legs possess securing straps to be tied about boots, while a set of braces loops across the shoulders.",
     "weight": "1040 g",
     "volume": "2 L",
     "price": 448,
@@ -48,7 +48,7 @@
       }
     ],
     "warmth": 24,
-    "material_thickness": 2,
+m    "material_thickness": 2,
     "environmental_protection": 2,
     "flags": [ "VARSIZE", "POCKETS", "OUTER", "STURDY", "WATERPROOF", "HANGABLE_TROUSERS" ]
   }

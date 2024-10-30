@@ -4,7 +4,7 @@
     "type": "MONSTER",
     "looks_like": "mon_feral_human_pipe",
     "name": { "str": "dishevelled person" },
-    "description": "Unkempt, dirty, and dressed in ragged apparel, this ambulant figure of stretched skin and gnarled bones wanders with twitching limbs and a swivelling head.  Stout and roughly hewn into a cudgel, a length of timber sits heavy in their arms as they nervously work their jaws.  With haunted eyes restless in their sockets, the island has not been kind to this colonist’s faculties.",
+    "description": "Unkempt, dirty, and dressed in ragged, western apparel, this ambulant figure of stretched skin and gnarled bones wanders with twitching limbs and a swivelling head.  Stout and roughly hewn into a cudgel, a length of timber sits heavy in their arms as they nervously work their jaws.  With haunted eyes restless in their sockets, something hasn’t been kind to this colonist’s faculties.",
     "bodytype": "human",
     "species": [ "HUMAN" ],
     "default_faction": "waifs",
